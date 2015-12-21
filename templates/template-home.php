@@ -11,4 +11,5 @@
 	</div>
 <seciton>
 <section class="home-giant-menu">
+	<?php wp_nav_menu(['theme_location' => 'home_big_navigation', 'menu_class' => 'home-big-nav','container_class' => 'big-nav-container']); ?>
 </section>
