@@ -4,12 +4,19 @@
  */
 ?>
 
-<section class="home-banner">
+<section class="home-bannerz">
 	<div class="home-banner-text">
+		<p> example example example example example example example example example example example example.</p>
 	</div>
 	<div class="home-services-but">
+		<p>Services</p>
 	</div>
 <seciton>
 <section class="home-giant-menu">
-	<?php wp_nav_menu(['theme_location' => 'home_big_navigation', 'menu_class' => 'home-big-nav','container_class' => 'big-nav-container']); ?>
+	<div class="home-big-about big-menu">
+	</div>
+	<div class="home-big-services big-menu">
+	</div>
+	<div class="home-big-contact big-menu">
+	</div>
 </section>

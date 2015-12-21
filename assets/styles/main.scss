@@ -1,25 +1,17 @@
-@import "common/variables";
 
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "common/global";
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
-@import "components/grid";
-@import "components/wp-classes";
-@import "layouts/header";
-@import "layouts/sidebar";
-@import "layouts/footer";
-@import "layouts/pages";
-@import "layouts/posts";
-@import "layouts/tinymce";
+html {
+  height: 100%;
+}
+
 
 body{
-	background-color: black;
+	position:relative;
+	background-color: white;
 }
 
 .main-container {
@@ -29,20 +21,37 @@ body{
 	padding:0;
 }
 
+.main-footer{
+ 	position:absolute;
+ 	float:bottom;
+ 	clear:both;
+    bottom:0;
+    width: 100%;
+    height:100px;
+    background-color: black;
+}
+
 .nav-menu{
 	position:fixed;
+	top:0;
 	background-color: white;
 	width:100%;
+	z-index: 99999;
 }
 
 .menu-item{
 	float:left;
 	list-style: none;
-	padding-right:7%;
+	color:none;
 }
 
 .menu-item a{
-	color:red;
+	color:grey;
+	padding:15px; 
+}
+
+#menu-item-9{
+	height:100%;
 }
 
 #menu-item-32{
@@ -51,16 +60,64 @@ body{
 }
 
 #menu-item-32 a{
-	color:red;
+	color:white;
 	float:right;
 	background-color: green;
 	border-radius: 10%;
-	padding:15px; 
 }
 
-.home-banner{
+.home-bannerz{
+	display: inline-block;
 	position:absolute;
-	background-color: red;
+	margin-top: 50px;
+	background-color: grey;
+	height:600px;
 	width:100%;
-	height: 100px;
+}
+
+.home-giant-menu{
+	position:absolute;
+	background-color: green;
+	width:100%;
+}
+
+.home-giant-menu div{
+	display: inline-block;
+	float:left;
+	background-color: yellow;
+	width:33.3%;
+	height:300px;
+	border:1px solid red;
+
+}
+
+.home-services-but{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px red solid;
+	width:120px;
+	text-align: center;
+	border-radius: 10%;
+	background-color: red;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.home-services-but p{
+	padding:5px 0px 0px 0px;
+	color:white;	
+}
+
+.home-banner-text{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px red solid;
+	width:80%;
+	color:white;
+	font-size:36px;
+	text-align: center;
+	padding-top: 200px;
+
 }
