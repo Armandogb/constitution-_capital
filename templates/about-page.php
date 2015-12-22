@@ -5,12 +5,18 @@
 ?>
 
 <?php get_template_part('templates/section-big-banner', 'big_banner'); ?>
-<section class="about-expertise">
-	<div class="expertise-headline">
+<section class="services-middle">
+	<div class="services-middle-text">
+		<div class="services-headline">
+			<p>Title Title Title Title Title Title Title Title Title </p>
+		</div>
+		<div class="services-paragraphs">
+			<p>Words Words Words Words Words Words Words Words Words Words Words Words 
+			Words Words Words Words Words Words Words Words Words Words Words 
+			Words Words Words Words Words Words Words Words Words Words Words </p>
+		</div>
 	</div>
-	<div class="expertise-paragraphs">
-	</div>
-	<div class="expertise-graph">
+	<div class="services-laptop">
 	</div>
 </section>
 <section class="about-leadership">
