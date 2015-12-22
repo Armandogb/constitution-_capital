@@ -34,7 +34,6 @@ body{
 }
 
 
-
 .nav-menu{
 	position:fixed;
 	top:0;
@@ -70,12 +69,32 @@ body{
 	border-radius: 10%;
 }
 
+.left-footer{
+	display:inline-block;
+	width:50%;
+	float:left;
+}
+
+.right-footer{
+	display:inline-block;
+	width:50%;
+	float:right;
+}
+
 .home-bannerz{
 	margin-top: 50px;
-	background-color: grey;
-	height:600px;
 	width:100%;
+	background: rgba(0, 0, 0, 0.5);
 }
+
+.home-bannerz img{
+	position:absolute;
+	top:0;
+	z-index: -1;
+	width:100%;
+	height:150%;
+}
+
 
 .home-giant-menu{
 	background-color: green;
@@ -84,13 +103,11 @@ body{
 	float:right;
 }
 
-.home-giant-menu div{
+.big-menu{
 	display: inline-block;
 	float:left;
-	background-color: yellow;
+	background-color: #36454F;
 	width:33.3%;
-	height:300px;
-	border:1px solid red;
 
 }
 
@@ -99,11 +116,11 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	border:1px red solid;
-	width:120px;
+	width:150px;
 	text-align: center;
 	border-radius: 10%;
 	background-color: red;
-	margin-bottom: 40px;
+	margin-bottom: 200px;
 	margin-top: 40px;
 }
 
@@ -116,13 +133,31 @@ body{
 	position:relative;
 	margin-left: auto;
 	margin-right: auto;
-	border:1px red solid;
 	width:80%;
 	color:white;
 	font-size:36px;
 	text-align: center;
 	padding-top: 200px;
+	padding-bottom:50px;
 
+}
+
+.big-icon{
+	position:relative;
+	padding: 25% 0px 25% 35%;
+	clear:both;
+}
+
+.big-icon-hover{
+    position: absolute;
+    z-index: -1;
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 39%;
+    width: 43%;
+    top: 126px;
+    left: 171px;
+    background-color: #000;
 }
 
 .big-banner{
