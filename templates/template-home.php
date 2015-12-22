@@ -11,7 +11,8 @@
 	<div class="home-services-but">
 		<p>Services</p>
 	</div>
-<seciton>
+</section>
+
 <section class="home-giant-menu">
 	<div class="home-big-about big-menu">
 	</div>

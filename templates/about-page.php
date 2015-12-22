@@ -12,7 +12,7 @@
 	</div>
 	<div class="expertise-graph">
 	</div>
-<seciton>
+</section>
 <section class="about-leadership">
 	<div class="leadership-headline">
 	</div>
