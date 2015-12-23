@@ -27,7 +27,26 @@
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page
+
+        $(".big-icon a").hover(function(){
+          $(this).parent().find($(".big-icon-hover")).css("z-index",0);
+        },function(){
+          $(".big-icon-hover").css("z-index",-1);
+        });
+
+        $(".home-services-but").hover(function(){
+          $(this).css("background-color","red");
+        },function(){
+          $(this).css("background-color","#990000");
+        });
+
+        $(".nav-menu li:nth-child(6) a").hover(function(){
+          $(this).css("background-color","#4DBD33");
+        },function(){
+          $(this).css("background-color","#28AE7B");
+        });
+
+
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS

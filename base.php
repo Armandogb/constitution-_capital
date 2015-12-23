@@ -9,7 +9,7 @@ use Roots\Sage\Wrapper;
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
   <body <?php body_class(); ?>>
-  <section class="main-container">
+  <section class="main-container" role="document">
     <?php
       do_action('get_header');
       get_template_part('templates/header');
@@ -18,7 +18,10 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');
+      wp_footer();
     ?>
     </section>
   </body>
 </html>
+
+
