@@ -12,6 +12,7 @@ html {
 
 body{
 	background-color: white;
+	color:white;
 }
 
 ul{
@@ -288,29 +289,47 @@ a:hover{
 	background-color: #282B32;
 }
 
+.mobile-phones{
+	width:80%;
+	margin-right: 10%;
+	margin-left:10%;
+	position: relative;
+	display: inline-block;
+	clear:both;
+}
+
 .phone{
 	display:inline-block;
-	position: relative;
 	width:33%;
+	clear:both;
+}
+
+.phone img{
+	width:100%;
 }
 
 .phone-1{
+	position: relative;
 }
 
 .phone-2{
-
+	position: absolute;
+    left: 0;
 }
 
 .phone-3{
+	position:absolute;
+	left:0;
 }
 
 .mobile-headline{
 	width:100%;
 	text-align: center;
-	padding:100px 100px 200px 100px;
+	padding:10%;
 	color:#E2E7EC;
 	font-size: 36px;
 	font-weight: bold;
+	position:relative;
 }
 
 .services-middle{
@@ -362,3 +381,4 @@ a:hover{
 	padding-left: 15%;
 	color:#E2E7EC;
 }
+
