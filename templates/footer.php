@@ -7,6 +7,9 @@
 			<div class="address-bar-foot">
 				<p class="white-text">Address Address Address Address Address Address Address</p>
 			</div>
+			<div class="phone-bar-foot">
+				<p class="white-text">Phone Phone Phone</p>
+			</div>
 			<div class="rights-reserved-foot">
 				<p class="light-blue-text">Rights Rights Rights Rights Rights Rights</p>
 			</div>

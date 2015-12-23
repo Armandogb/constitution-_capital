@@ -61,7 +61,7 @@ a:hover{
 .main-footer{
 	position:absolute;
     width: 100%;
-    background-color: black;
+    background-color: #23252C;
     padding-bottom: 25px;
 }
 
@@ -79,7 +79,7 @@ a:hover{
 }
 
 .menu-item a{
-	color:grey;
+	color:#282B32;
 	padding:15px;
 	font-size: 12px;
 }
@@ -125,12 +125,19 @@ a:hover{
 	padding-right:8%;
 }
 
+.phone-bar-foot{
+	position:relative;
+	width:100%;
+	margin-top: -7%;
+}
+
 .footer-right div{
     float: left;
     position: relative;
     clear: both;
     padding-top: 8%;
 }
+
 
 .email-field{
     display: inline-block;
@@ -140,7 +147,7 @@ a:hover{
     background-color: transparent;
     padding-top: 5px;
     padding-bottom: 5px;
-    border:1px solid lightblue;
+    border:1px solid #C3DEF4;
 }
 
 .email-submit{
@@ -151,15 +158,15 @@ a:hover{
     background-color: transparent;
     padding-top: 5px;
     padding-bottom: 5.5px;
-    border:1px solid lightblue;
+    border:1px solid #C3DEF4;
 }
 
 .light-blue-text{
-	color:lightblue;
+	color:#C3DEF4;
 }
 
 .white-text{
-	color:white;
+	color:#E2E7EC;
 }
 
 
@@ -180,7 +187,7 @@ a:hover{
 
 
 .home-giant-menu{
-	background-color: #36454F;
+	background-color: #282B32;
 	width:100%;
 	clear:both;
 	float:right;
@@ -189,7 +196,7 @@ a:hover{
 .big-menu{
 	display: inline-block;
 	float:left;
-	background-color: #36454F;
+	background-color: #282B32;
 	width:33.3%;
 
 }
@@ -216,7 +223,7 @@ a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	width:80%;
-	color:white;
+	color:#E2E7EC;
 	font-size:36px;
 	text-align: center;
 	padding-top: 200px;
@@ -229,7 +236,7 @@ a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	width:80%;
-	color:white;
+	color:#E2E7EC;
 	font-size:36px;
 	text-align: center;
 	padding-top: 150px;
@@ -261,7 +268,7 @@ a:hover{
 .big-banner{
 	margin-top:40px;
 	width:100%;
-	background-color: #36454F;
+	background-color: #282B32;
 
 }
 
@@ -271,21 +278,21 @@ a:hover{
 	margin-left:20%;
 	width:60%;
 	border-radius: 80%;
-	border:2px solid grey;
+	border:2px solid #282B32;
 
 }
 
 .services-mobile{
 	clear:both;
 	width:100%;
-	background-color: #36454F;
+	background-color: #282B32;
 }
 
 .mobile-headline{
 	width:100%;
 	text-align: center;
 	padding:200px 100px 200px 100px;
-	color:white;
+	color:#E2E7EC;
 	font-size: 36px;
 	font-weight: bold;
 }
@@ -294,7 +301,7 @@ a:hover{
 	padding-top:150px;
 	display:inline-block;
 	width:100%;
-	background-color: #36454F;
+	background-color: #282B32;
 
 }
 
@@ -302,14 +309,14 @@ a:hover{
 	display:inline-block;
 	width:50%;
 	float:left;
-	background-color: #36454F;
+	background-color: #282B32;
 }
 
 .services-laptop{
 	display:inline-block;
 	width:50%;
 	float:left;
-	background-color: #36454F;
+	background-color: #282B32;
 }
 
 .services-headline,.services-paragraphs{
@@ -329,5 +336,5 @@ a:hover{
 
 .services-headline p,.services-paragraphs p{
 	padding-right: 10%;
-	color:white;
+	color:#E2E7EC;
 }
