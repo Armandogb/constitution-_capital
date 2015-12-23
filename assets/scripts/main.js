@@ -57,6 +57,27 @@
       init: function() {
         // JavaScript to be fired on the about us page
       }
+    },
+    'services': {
+      init: function() {
+
+      $(".mobile-phones").one("click",function(){
+
+        $(".phone-2").animate({
+            left: "+=350"
+        },"slow");
+
+        $(".phone-3").animate({
+            left: "+=700"
+        },"slow");
+
+      }); 
+
+
+      },
+      finalize: function() {
+        // JavaScript to be fired on all pages, after page specific JS is fired
+      }
     }
   };
 
