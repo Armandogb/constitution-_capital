@@ -268,7 +268,7 @@ a:hover{
 .big-banner{
 	margin-top:40px;
 	width:100%;
-	background-color: #282B32;
+	background-color:#23252C;
 
 }
 
@@ -278,7 +278,7 @@ a:hover{
 	margin-left:20%;
 	width:60%;
 	border-radius: 80%;
-	border:2px solid #282B32;
+	border:2px solid grey;
 
 }
 
@@ -288,10 +288,26 @@ a:hover{
 	background-color: #282B32;
 }
 
+.phone{
+	display:inline-block;
+	position: relative;
+	width:33%;
+}
+
+.phone-1{
+}
+
+.phone-2{
+
+}
+
+.phone-3{
+}
+
 .mobile-headline{
 	width:100%;
 	text-align: center;
-	padding:200px 100px 200px 100px;
+	padding:100px 100px 200px 100px;
 	color:#E2E7EC;
 	font-size: 36px;
 	font-weight: bold;
@@ -299,9 +315,10 @@ a:hover{
 
 .services-middle{
 	padding-top:150px;
+	padding-bottom:100px;
 	display:inline-block;
 	width:100%;
-	background-color: #282B32;
+	background-color: #23252C;
 
 }
 
@@ -309,7 +326,7 @@ a:hover{
 	display:inline-block;
 	width:50%;
 	float:left;
-	background-color: #282B32;
+	background-color: #23252C;
 }
 
 .services-laptop{
@@ -317,6 +334,11 @@ a:hover{
 	width:50%;
 	float:left;
 	background-color: #282B32;
+}
+
+.services-laptop img{
+	width:100%;
+	background-color: #23252C;
 }
 
 .services-headline,.services-paragraphs{
@@ -327,7 +349,8 @@ a:hover{
 
 .services-headline p{
 	font-size: 36px;
-	padding-bottom: 25px;
+	padding-bottom: 5%;
+	padding-top: 8%;
 }
 
 .services-paragraphs p{
@@ -336,5 +359,6 @@ a:hover{
 
 .services-headline p,.services-paragraphs p{
 	padding-right: 10%;
+	padding-left: 15%;
 	color:#E2E7EC;
 }

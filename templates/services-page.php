@@ -18,6 +18,7 @@
 		</div>
 	</div>
 	<div class="services-laptop">
+		<img src="<?php echo get_template_directory_uri() . '/dist/images/computer_bars.png'; ?>">
 	</div>
 </section>
 <section class="services-mobile">
@@ -26,5 +27,14 @@
 		Title Title Title Title Title Title Title Title </p>
 	</div>
 	<div class="mobile-phones">
+		<div class="phone phone-1">
+			<img src="<?php echo get_template_directory_uri() . '/dist/images/phone.png'; ?>">
+		</div>
+		<div class="phone phone-2">
+			<img src="<?php echo get_template_directory_uri() . '/dist/images/phone.png'; ?>">
+		</div>
+		<div class="phone phone-3">
+			<img src="<?php echo get_template_directory_uri() . '/dist/images/phone.png'; ?>">
+		</div>
 	</div>
 </section>
