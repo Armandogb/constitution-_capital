@@ -1,16 +1,22 @@
-html {
+html{
+	overflow-x: hidden;
 	width:100%;
-  	height: 100%;
-
 }
 
 body{
-	background-color: #23252C;
+	background-color: white;
 	color:white;
+	width:100%;
+	height:100%;
 }
 
 ul{
 	list-style: none;
+}
+
+li,a{
+	list-style: none;
+	text-decoration: none;
 }
 
 a:hover{
@@ -42,7 +48,6 @@ a:hover{
 
 
 .big-banner{
-	margin-top:40px;
 	width:100%;
 	background-color:#23252C;
 
