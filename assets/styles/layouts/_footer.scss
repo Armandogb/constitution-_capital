@@ -1,0 +1,67 @@
+.logo-bar-foot{
+	display: inline-block;
+    width: 100%;
+}
+
+.main-footer{
+	position:absolute;
+    width: 100%;
+    background-color: #23252C;
+    padding-bottom: 25px;
+}
+
+.left-footer{
+	display:inline-block;
+	width:40%;
+	float:left;
+	padding-left:8%;
+}
+
+.left-footer div{
+	float:left;
+	position:relative;
+	clear:both;
+	padding-top: 25px;
+}
+
+.footer-right{
+	display:inline-block;
+	width:40%;
+	float:right;
+	padding-right:8%;
+}
+
+.phone-bar-foot{
+	position:relative;
+	width:100%;
+	margin-top: -7%;
+}
+
+.footer-right div{
+    float: left;
+    position: relative;
+    clear: both;
+    padding-top: 8%;
+}
+
+.email-field{
+    display: inline-block;
+    float: left;
+    width: 225px;
+    padding-left:10px;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid #C3DEF4;
+}
+
+.email-submit{
+    display: inline-block;
+    float: left;
+    margin-left: 45px;
+    width: 100px;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5.5px;
+    border:1px solid #C3DEF4;
+}

@@ -1,0 +1,95 @@
+.home-bannerz{
+	margin-top:40px;
+	width:100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+
+.home-bannerz img{
+	position:absolute;
+	top:0;
+	z-index: -1;
+	width:100%;
+	height:150%;
+}
+
+
+.home-giant-menu{
+	background-color: #282B32;
+	width:100%;
+	clear:both;
+	float:right;
+}
+
+.big-menu{
+	display: inline-block;
+	float:left;
+	background-color: #282B32;
+	width:33.3%;
+
+}
+
+.home-services-but{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:150px;
+	text-align: center;
+	border-radius: 10%;
+	background-color: #990000;
+	margin-bottom: 200px;
+	margin-top: 40px;
+}
+
+.home-services-but p{
+	padding:10px 0px 10px 0px;
+	color:white;	
+}
+
+.home-banner-text,.big-banner-text{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	color:#E2E7EC;
+	font-size:36px;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom:50px;
+
+}
+
+.big-banner-text{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	color:#E2E7EC;
+	font-size:36px;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom:150px;
+}
+
+.big-icon{
+	position:relative;
+	padding: 25% 0px 25% 25%;
+	clear:both;
+}
+
+.big-icon img{
+	position:relative;
+	width:72%;
+	clear:both;
+	z-index:1;
+}
+
+.big-icon-hover{
+    position: absolute;
+    z-index:-1;
+    border-radius: 50%;
+    height: 45%;
+    width: 53%;
+    margin-top: -68%;
+    background-color: #28AE7B;
+}

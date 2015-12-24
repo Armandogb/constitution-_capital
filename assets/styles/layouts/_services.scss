@@ -1,0 +1,99 @@
+.services-mobile{
+	clear:both;
+	width:100%;
+	background-color: #282B32;
+}
+
+.mobile-phones{
+	width:80%;
+	margin-right: 10%;
+	margin-left:10%;
+	position: relative;
+	display: inline-block;
+	clear:both;
+}
+
+.phone{
+	display:inline-block;
+	width:33%;
+	clear:both;
+}
+
+.phone img{
+	width:100%;
+}
+
+.phone-1{
+	position: relative;
+}
+
+.phone-2{
+	position: absolute;
+    left: 0;
+}
+
+.phone-3{
+	position:absolute;
+	left:0;
+}
+
+.mobile-headline{
+	width:100%;
+	text-align: center;
+	padding:10%;
+	color:#E2E7EC;
+	font-size: 36px;
+	font-weight: bold;
+	position:relative;
+}
+
+.services-middle{
+	padding-top:150px;
+	padding-bottom:100px;
+	display:inline-block;
+	width:100%;
+	background-color: #23252C;
+
+}
+
+.services-middle-text{
+	display:inline-block;
+	width:50%;
+	float:left;
+	background-color: #23252C;
+}
+
+.services-laptop{
+	display:inline-block;
+	width:50%;
+	float:left;
+	background-color: #282B32;
+}
+
+.services-laptop img{
+	width:100%;
+	background-color: #23252C;
+}
+
+.services-headline,.services-paragraphs{
+	float:left;
+	position:relative;
+	width:100%;
+}
+
+.services-headline p{
+	font-size: 36px;
+	padding-bottom: 5%;
+	padding-top: 8%;
+}
+
+.services-paragraphs p{
+	font-size: 14px;
+}
+
+.services-headline p,.services-paragraphs p{
+	padding-right: 10%;
+	padding-left: 15%;
+	color:#E2E7EC;
+}
+

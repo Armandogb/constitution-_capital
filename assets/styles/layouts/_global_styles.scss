@@ -1,0 +1,60 @@
+html {
+	width:100%;
+  	height: 100%;
+
+}
+
+body{
+	background-color: #23252C;
+	color:white;
+}
+
+ul{
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+.main-container {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.main-container section{
+	float:right;
+	display:inline-block;
+	position: relative;
+}
+
+
+.light-blue-text{
+	color:#C3DEF4;
+}
+
+.white-text{
+	color:#E2E7EC;
+}
+
+
+
+.big-banner{
+	margin-top:40px;
+	width:100%;
+	background-color:#23252C;
+
+}
+
+.big-banner-border-line{
+	position:absolute;
+	bottom:0;
+	margin-left:20%;
+	width:60%;
+	border-radius: 80%;
+	border:2px solid grey;
+
+}
+
