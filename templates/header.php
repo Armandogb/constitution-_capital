@@ -5,9 +5,12 @@
 	        wp_nav_menu(['theme_location' => 'primary_navigation','menu_class' => 'nav-menu']);
 	      endif;
 	      ?>
-     	<div class="header-logo">
-      		<a href="/"><img src="<?php echo get_template_directory_uri() . '/dist/images/logo.png'; ?>"></a>
-      	</div> 
+	  <div class="header-logo">
+	  	<a href="/">
+	     	<div class="logo-header">
+	      	</div> 
+	      </a>
+      </div>
      </div>
      <section class="header-spacer">
      </section>
