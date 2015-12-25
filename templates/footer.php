@@ -2,7 +2,8 @@
   	<section class="main-footer">
   		<div class="left-footer">
 			<div class="logo-bar-foot">
-				<img src="<?php echo get_template_directory_uri() . '/dist/images/footer_logo.png'; ?>">
+				<div class="foot-logo">
+				</div>
 			</div>
 			<div class="address-bar-foot">
 				<p class="white-text">Address Address Address Address Address Address Address</p>
