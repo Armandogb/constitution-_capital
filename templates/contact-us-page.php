@@ -17,4 +17,5 @@
 	</div>
 <seciton>
 <section class="contact-us-form">
+	<p class="form-text-contactus"></p>
 </section>

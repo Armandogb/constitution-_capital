@@ -71,7 +71,16 @@
             left: "+=40%"
         },"slow");
 
-      }); 
+      });
+
+      $(".laptop-image").one("click",function(){
+
+        $(".bar-animation").animate({
+          width: "-=28%"
+        },"slow");
+      
+      });
+
 
 
       },

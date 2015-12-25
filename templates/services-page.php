@@ -19,6 +19,12 @@
 	</div>
 	<div class="services-laptop">
 		<div class="laptop-image">
+			<div class="bar-animation one">
+			</div>
+			<div class="bar-animation two">
+			</div>
+			<div class="bar-animation three">
+			</div>
 		<div>
 </section>
 <section class="services-mobile">
