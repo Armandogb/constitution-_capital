@@ -11,8 +11,6 @@
 	<div class="home-services-but">
 		<a href="/services"><p>SERVICES</p></a>
 	</div>
-	<img src="<?php echo get_template_directory_uri() . '/dist/images/stock_background.png'; ?>">
-
 </section>
 
 <section class="home-giant-menu">
