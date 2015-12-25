@@ -1,0 +1,55 @@
+
+.about-leadership{
+	background-color: #282B32;
+	padding:10% 0 10% 0 ;
+}
+
+.leadership-left{
+	display: inline-block;
+	width:45%;
+	padding-left:5%;
+	float:left;
+}
+
+.leadership-right{
+	display: inline-block;
+	width:40%;
+	padding-right:10%;
+	float:right;
+}
+
+.leader-profile{
+	position: relative;
+}
+
+.leader-info{
+	display: inline-block;
+	float:right;
+	width: 82%;
+
+}
+
+.leadership-headline,.leadership-paragraph{
+	padding-right: 4%;
+}
+
+.leader-name{
+	padding-top: 5%;
+}
+
+.leadership-headline{
+	padding-top: 5%;
+}
+
+.leader-image{
+	position:relative;
+	display:inline-block;
+	float:left;
+	height:100px;
+	width:100px;
+	margin-bottom: 10px;
+	background-color: red;
+	clear:both;
+}
+
+
