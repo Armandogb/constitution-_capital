@@ -64,11 +64,11 @@
       $(".mobile-phones").one("click",function(){
 
         $(".phone-2").animate({
-            left: "+=350"
+            left: "+=20%"
         },"slow");
 
         $(".phone-3").animate({
-            left: "+=700"
+            left: "+=40%"
         },"slow");
 
       }); 

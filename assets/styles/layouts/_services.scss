@@ -70,9 +70,21 @@
 
 .services-laptop{
 	display:inline-block;
+	position: relative;
 	width:50%;
-	float:left;
-	background-color: #282B32;
+	float:right;
+	right:0;
+	background-color: #23252C;
+}
+
+.laptop-image{
+	width:840px;
+    height:609px;
+    background: url(../images/computer_bars.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 }
 
 .services-laptop img{

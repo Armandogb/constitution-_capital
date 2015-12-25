@@ -18,8 +18,8 @@
 		</div>
 	</div>
 	<div class="services-laptop">
-		<img src="<?php echo get_template_directory_uri() . '/dist/images/computer_bars.png'; ?>">
-	</div>
+		<div class="laptop-image">
+		<div>
 </section>
 <section class="services-mobile">
 	<div class="mobile-headline">
