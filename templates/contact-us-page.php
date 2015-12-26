@@ -21,13 +21,23 @@
 	</div>
 </section>
 <section class="contact-us-form">
-	<p class="form-text-contactus">Contact Us</p>
+	<div class="form-text-contactus">
+		<p>Contact Us</p>
+	</div>
 	<div class="contact-form">
 		<form>
-			<input class="contact-name" type="text" name="first_last_name">
-			<input class="contact-email" type="text" name="email">
-			<input class="contact-comment" type="text" name="comment">
-			<input class="contact-submit" type="submit" value="Submit">
+			<div class="contact-name left" >
+				<input type="text" name="first_last_name">
+			</div>
+			<div class="contact-email right" >
+				<input type="text" name="email">
+			</div>
+			<div class="contact-comment left" >
+				<input type="text" name="comment">
+			</div>
+			<div class="contact-submit left">
+				<input type="submit" value="Submit">
+			</div>
 		</form>
 	</div>
 

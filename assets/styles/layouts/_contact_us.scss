@@ -13,7 +13,7 @@
 	float:left;
 	width:40%;
 	padding:15% 0 15% 5%;
-    background:rgba(36, 36, 45,0.83);
+    background: rgba(45, 45, 56, 0.83);
     position: relative;
     z-index: 1;
 
@@ -21,7 +21,7 @@
 
 .contact-us-form {
 	width:100%;
-	padding-bottom: 15%;
+	padding: 0px 0% 12% 0%;
 	background-color: red;
 }
 
@@ -43,12 +43,27 @@
 
 
 .form-text-contactus{
-	width:100%;
+	width:80%;
+	margin-left:10%;
+	margin-right: 10%;
 	text-align: center;
 	position: relative;
 }
 
+.contact-name{
+	width:40%;
+}
+
+.contact-email{
+	width: 40%;
+}
+
 .contact-comment{
-	width:60%;
+	width:40%;
+	clear:both;
+}
+
+.contact-submit{
+	clear:both;
 }
 
