@@ -78,6 +78,14 @@
         $(".bar-animation").animate({
           width: "-=28%"
         },"slow");
+
+        $(".bar-animation").animate({
+          width: "+=18%"
+        },"slow");
+
+        $(".bar-animation").animate({
+          width: "-=18%"
+        },"slow");
       
       });
 

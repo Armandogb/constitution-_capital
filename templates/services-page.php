@@ -19,11 +19,25 @@
 	</div>
 	<div class="services-laptop">
 		<div class="laptop-image">
-			<div class="bar-animation one">
+			<div class="bar-animation one-light">
 			</div>
-			<div class="bar-animation two">
+			<div class="bar-animation two-light">
 			</div>
-			<div class="bar-animation three">
+			<div class="bar-animation three-light">
+			</div>
+			<div class="bar-animation four-light">
+			</div>
+			<div class="bar-animation one-dark">
+			</div>
+			<div class="bar-animation two-dark">
+			</div>
+			<div class="bar-animation three-dark">
+			</div>
+			<div class="bar-animation four-dark">
+			</div>
+			<div class="bar-animation five-dark">
+			</div>
+			<div class="spread-bar">
 			</div>
 		<div>
 </section>
