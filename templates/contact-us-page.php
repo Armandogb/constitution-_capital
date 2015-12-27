@@ -27,13 +27,13 @@
 	<div class="contact-form">
 		<form>
 			<div class="contact-name left" >
-				<input type="text" name="first_last_name">
+				<input type="text" name="first_last_name" value="First & Last Name">
 			</div>
 			<div class="contact-email right" >
-				<input type="text" name="email">
+				<input type="text" name="email" value="Email Address">
 			</div>
 			<div class="contact-comment left" >
-				<input type="text" name="comment">
+				<textarea rows="25" type="text" name="comment">Comment</textarea>
 			</div>
 			<div class="contact-submit left">
 				<input type="submit" value="Submit">

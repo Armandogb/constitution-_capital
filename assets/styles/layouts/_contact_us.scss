@@ -21,24 +21,25 @@
 
 .contact-us-form {
 	width:100%;
-	padding: 0px 0% 12% 0%;
-	background-color: red;
+	padding: 0px 0% 8% 0%;
+	background-color: #282B32;
 }
 
-.contact-us-form input{
+.contact-us-form input,.contact-us-form textarea{
 	float:left;
 	position: relative;
 	display: inline-block;
     background-color: transparent;
     border:1px solid #C3DEF4;
-    padding:1px 5px 1px 0; 
+    color:#C3DEF4;
+    padding:1% 5% 1% 0; 
     margin-right:1%; 
 }
 
 
 
 .contact-form{
-	padding: 6% 0 0 10%;
+	padding: 2% 10% 0 15%;
 }
 
 
@@ -51,19 +52,45 @@
 }
 
 .contact-name{
-	width:40%;
+	width:50%;
+}
+.contact-name input{
+	width:90%;
 }
 
 .contact-email{
-	width: 40%;
+	width: 50%;
+}
+.contact-email input{
+	width: 90%;
 }
 
 .contact-comment{
-	width:40%;
+	width:100%;
+	clear:both;
+}
+.contact-comment textarea{
+	width:93%;
+	margin-top: 1%;
+	height:100px;
 	clear:both;
 }
 
 .contact-submit{
-	clear:both;
+	position: relative;
+	width:40%;
+	margin-top: 20px;
+}
+
+.contact-submit input{
+	position:relative;
+	width:100px;
+	text-align: center;
+	border-radius: 5px;
+	padding:2% 0 2% 0;
+	background-color: #990000;
+	border:none;
+	color:white;
+
 }
 
