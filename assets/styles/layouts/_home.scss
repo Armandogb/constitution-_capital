@@ -7,7 +7,7 @@
 
 
 .home-giant-menu{
-	background-color: #282B32;
+	background-color: $light-grey;
 	width:100%;
 	clear:both;
 	float:right;
@@ -16,7 +16,7 @@
 .big-menu{
 	display: inline-block;
 	float:left;
-	background-color: #282B32;
+	background-color: $light-grey;
 	width:33.3%;
 
 }

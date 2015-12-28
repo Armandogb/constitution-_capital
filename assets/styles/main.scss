@@ -4,6 +4,8 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "common/variables";
+
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/pages";
@@ -13,4 +15,5 @@
 @import "layouts/services";
 @import "layouts/about";
 @import "layouts/contact_us";
+@import "layouts/trading";
 

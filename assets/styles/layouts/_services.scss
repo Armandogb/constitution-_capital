@@ -1,7 +1,7 @@
 .services-mobile{
 	clear:both;
 	width:100%;
-	background-color: #282B32;
+	background-color: $light-grey;
 }
 
 .mobile-phones{
@@ -57,7 +57,7 @@
 	padding-bottom:10%;
 	display:inline-block;
 	width:100%;
-	background-color: #23252C;
+	background-color: $dark-grey;
 
 }
 
@@ -65,7 +65,7 @@
 	display:inline-block;
 	width:50%;
 	float:left;
-	background-color: #23252C;
+	background-color: $dark-grey;
 }
 
 .services-laptop{
@@ -74,7 +74,7 @@
 	width:50%;
 	float:right;
 	right:0;
-	background-color: #23252C;
+	background-color: $dark-grey;
 }
 
 .laptop-image{
@@ -91,7 +91,7 @@
 
 .services-laptop img{
 	width:100%;
-	background-color: #23252C;
+	background-color: $dark-grey;
 }
 
 .services-headline,.services-paragraphs{
@@ -126,48 +126,48 @@
 .bar-animation.one-light{
     left: 42.7%;
     top: 51%;
-    background-color: #282B32;
+    background-color: $light-grey;
 }
 
 .bar-animation.two-light{
     left: 42.7%;
     top: 41%;
-    background-color: #282B32;
+    background-color: $light-grey;
 }
 .bar-animation.three-light{
     left: 42.7%;
     top: 31%;
-    background-color: #282B32;
+    background-color: $light-grey;
 }
 
 .bar-animation.four-light{
     left: 42.7%;
     bottom: 17%;
-    background-color: #282B32;
+    background-color: $light-grey;
     width: 28%;
     height: 2.37%;
 }
 .bar-animation.one-dark{
     left: 42.7%;
     top: 56%;
-    background-color: #23252C;
+    background-color: $dark-grey;
 }
 
 .bar-animation.two-dark{
     left: 42.7%;
     top: 46%;
-    background-color: #23252C;
+    background-color: $dark-grey;
 }
 .bar-animation.three-dark{
     left: 42.7%;
     top: 36%;
-    background-color: #23252C;
+    background-color: $dark-grey;
 }
 
 .bar-animation.four-dark{
     left: 42.7%;
     bottom: 30%;
-    background-color: #23252C;
+    background-color: $dark-grey;
     width: 28%;
     height: 4.37%;
 }
@@ -175,7 +175,7 @@
 .bar-animation.five-dark{
     left: 42.7%;
     top: 16%;
-    background-color: #23252C;
+    background-color: $dark-grey;
 }
 
 .spread-bar{

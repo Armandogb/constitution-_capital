@@ -1,0 +1,56 @@
+.trading-header{
+	width:100%;
+	background:$dark-grey;
+}
+
+.trading-title{
+	position:relative;
+	left:5%;
+}
+
+.trading-column-names{
+	background:white;
+	width:100%;
+}
+
+.trading-column-names div{
+	display:inline-block;
+	float:left;
+	color:$dark-grey;
+	position:relative;
+	padding:0 0 0 5%;
+}
+
+.stock-objects{
+	width:100%;
+	display:inline-block;
+}
+
+.stock-objects div{
+	float:left;
+	display:inline-block;
+}
+
+.middle-columns{
+	width:70%;
+}
+
+.middle-columns div{
+	float:left;
+}
+
+.trading-table{
+	width:100%;
+	background-color:$light-grey;
+}
+
+.table-blank-space,.buy-sell-space,.quantity-space{
+	width:5%;
+	background-color: red;
+	height:5px;
+}
+
+.house-space{
+	width:15%;
+}
+
