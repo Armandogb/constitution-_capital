@@ -3,6 +3,10 @@ html{
 	width:100%;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body{
 	background-color: white;
 	color:white;
@@ -47,7 +51,7 @@ a:hover{
 
 
 .light-blue-text{
-	color:#C3DEF4;
+	color:$light-blue;
 }
 
 .white-text{

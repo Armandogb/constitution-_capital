@@ -18,20 +18,27 @@
 	float:left;
 	color:$dark-grey;
 	position:relative;
-	padding:0 0 0 5%;
+	padding:0 0 0 4%;
 }
 
-.stock-objects{
+.stock-object{
 	width:100%;
-	display:inline-block;
+	background-color: $light-grey;
 }
 
-.stock-objects div{
-	float:left;
+.stock-object div{
 	display:inline-block;
+	border-right:1px solid $light-blue;
+	border-bottom:1px solid $light-blue;
+	text-align: left;
+	float:left;
+	color:$light-blue;
+	font-size:12px;
 }
 
 .middle-columns{
+	position:relative;
+	left:11%;
 	width:70%;
 }
 
@@ -44,13 +51,24 @@
 	background-color:$light-grey;
 }
 
-.table-blank-space,.buy-sell-space,.quantity-space{
+.table-blank-space.right,.buy-sell-space,.quantity-space,.codes-space,.strike-space,.cp-space,
+.premium-space{
 	width:5%;
-	background-color: red;
-	height:5px;
+}
+.timestamp-space,.spread-space,.comments-space{
+	width:13.35%;
+}
+
+.table-blank-space{
+	width:5%;
+}
+
+.table-blank-space .right{
+	width:5%;
+	border-right: 0px solid red;
 }
 
 .house-space{
-	width:15%;
+	width:19%;
 }
 
