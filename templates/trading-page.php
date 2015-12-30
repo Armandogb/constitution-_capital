@@ -16,39 +16,41 @@
 		<p>Word</p>
 	</div>
 	<div class="middle-columns left">
-		<div class="buy-sell-col">
-			<p>Word</p>
+			<div class="buy-sell-col">
+				<p>Word</p>
+			</div>
+			<div class="quantity-col">
+				<p>Word</p>
+			</div>
+			<div class="codes-col">
+				<p>Word</p>
+			</div>
+			<div class="strike-col">
+				<p>Word</p>
+			</div>
+			<div class="cp-col">
+				<p>Word</p>
+			</div>
+			<div class="premuim-col">
+				<p>Word</p>
+			</div>
+			<div class="spread-col">
+				<p>Word</p>
+			</div>
 		</div>
-		<div class="quantity-col">
-			<p>Word</p>
+		<div class="end-columns">
+			<div class="comments-col">
+				<p>Word</p>
+			</div>
+			<div class="timestamp-col">
+				<p>Word</p>
+			</div>
 		</div>
-		<div class="codes-col">
-			<p>Word</p>
-		</div>
-		<div class="strike-col">
-			<p>Word</p>
-		</div>
-		<div class="cp-col">
-			<p>Word</p>
-		</div>
-		<div class="premuim-col">
-			<p>Word</p>
-		</div>
-		<div class="spread-col">
-			<p>Word</p>
-		</div>
-	</div>
-	<div class="comments-col">
-		<p>Word</p>
-	</div>
-	<div class="timestamp-col">
-		<p>Word</p>
-	</div>
 </section>
 <section class="trading-table">
 	<div class="stock-object">
 		<div class="table-blank-space">
-			<p>BSL</p>
+			<p></p>
 		</div>
 		<div class="house-space">
 			<p>house</p>
@@ -80,8 +82,8 @@
 		<div class="timestamp-space">
 			<p>Time</p>
 		</div>
-		<div class="table-blank-space right">
-			<p>BSR</p>
+		<div class="table-blank-right">
+			<p></p>
 		</div>
 	</div>
 </section>
