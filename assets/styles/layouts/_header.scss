@@ -54,6 +54,7 @@
     padding: 8% 0 8% 0;
     width: 150px;
     text-align: center;
+    font-family: 'DIN-bold';
 }
 
 .nav-menu{
@@ -64,10 +65,12 @@
 .nav-menu li{
 	float:left;
 	list-style: none;
-    padding: 1% 0 0 3%;
+    margin-left:1%;
+    padding: 1% 2% 0 3%;
 }
 
 .menu-item a{
 	color:$light-grey;
 	font-size: 12px;
+    font-family: 'DIN-alt-med';
 }

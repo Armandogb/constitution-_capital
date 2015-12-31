@@ -59,11 +59,23 @@ a:hover{
 }
 
 
-
 .big-banner{
 	width:100%;
 	background-color:$dark-grey;
 
+}
+
+.big-banner-text{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	color:#E2E7EC;
+	font-size:42px;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom:15%;
+	font-family: 'Century';
 }
 
 .big-banner-border-line{

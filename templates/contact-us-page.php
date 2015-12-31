@@ -10,7 +10,8 @@
 			<p>WWEWEWE WEWEWEWE WEWEWEWEW WEWEWEWE</p>
 		</div>
 		<div class="contact-us-address">
-			<p>WWEWEWE WEWEWEWE WEWEWEWEW WEWEWEWE</p>
+			<p>address line 1</p>
+			<p>address line 2</p>
 		</div>
 		<div class="contact-us-phone">
 			<p>WWEWEWE WEWEWEWE WEWEWEWEW WEWEWEWE</p>

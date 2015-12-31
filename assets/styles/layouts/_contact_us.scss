@@ -12,11 +12,38 @@
 .contact-us-info{
 	float:left;
 	width:40%;
-	padding:15% 0 15% 5%;
+	padding:10% 0 15% 5%;
     background: rgba(45, 45, 56, 0.83);
     position: relative;
     z-index: 1;
 
+}
+
+.contact-us-headline{
+	font-size: 44px;
+	font-family: 'DIN-bold';
+	padding-right:15%;
+
+}
+
+.contact-us-phone,.contact-us-email{
+	font-size: 14px;
+	font-family: 'DIN';
+	color:$light-blue;
+
+}
+
+
+.contact-us-address{
+	font-size: 20px;
+	font-family: 'DIN';
+	padding-right:15%;
+
+}
+
+.contact-us-address p:nth-child(2){
+	margin-top: -4%;
+	padding-bottom: 5%;
 }
 
 .contact-us-form {
@@ -32,8 +59,10 @@
     background-color: transparent;
     border:1px solid $light-blue;
     color:$light-blue;
-    padding:1% 5% 1% 0; 
-    margin-right:1%; 
+    font-size: 14px;
+    padding:1% 5% 1% 1.5%; 
+    margin-right:1%;
+    font-family:'DIN';
 }
 
 
@@ -47,6 +76,8 @@
 	width:80%;
 	margin-left:10%;
 	margin-right: 10%;
+	font-size: 22px;
+	font-family: 'DIN-bold';
 	text-align: center;
 	position: relative;
 }
@@ -55,14 +86,15 @@
 	width:50%;
 }
 .contact-name input{
-	width:90%;
+	width:88%;
 }
 
 .contact-email{
 	width: 50%;
 }
 .contact-email input{
-	width: 90%;
+	width: 88%;
+	margin-left: 4%;
 }
 
 .contact-comment{
@@ -72,6 +104,7 @@
 .contact-comment textarea{
 	width:93%;
 	margin-top: 1%;
+	font-size: 14px;
 	height:100px;
 	clear:both;
 }
@@ -79,7 +112,9 @@
 .contact-submit{
 	position: relative;
 	width:40%;
+	font-size: 13px;
 	margin-top: 20px;
+	font-family: 'DIN-bold';
 }
 
 .contact-submit input{

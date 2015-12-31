@@ -16,7 +16,7 @@
 	position:absolute;
     width: 100%;
     background-color: $dark-grey;
-    padding:2% 0 2% 0;
+    padding:2% 0 0 0;
 }
 
 .left-footer{
@@ -32,12 +32,6 @@
 	clear:both;
 }
 
-.phone-bar-foot{
-    position:relative;
-    width:100%;
-    margin-top: -3%;
-}
-
 .footer-right{
 	display:inline-block;
 	width:40%;
@@ -49,6 +43,7 @@
     position: relative;
     clear: both;
     margin-bottom: 7%;
+    font-family: 'DIN';
 }
 
 .email-field{
@@ -60,6 +55,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     border:1px solid $light-blue;
+    font-family: 'DIN';
 }
 
 .email-submit{
@@ -71,8 +67,25 @@
     padding-top: 5px;
     padding-bottom: 5.5px;
     border:1px solid $light-blue;
+    font-family: 'DIN';
 }
+
+.phone-bar-foot{
+    position:relative;
+    width:100%;
+    margin-top: -3%;
+    font:14px;
+    font-family: 'DIN';
+}
+
 
 .address-bar-foot{
     padding-top: 4px;
+    font-family: 'DIN';
+    font-size: 14px;
+}
+
+.rights-reserved-foot{
+    font-family:'DIN-light-alt';
+    font-size:11px;
 }

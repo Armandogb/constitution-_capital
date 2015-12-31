@@ -33,12 +33,27 @@
 	padding-right: 4%;
 }
 
+.leadership-paragraph{
+	font-size: 20px;
+	font-family: 'DIN';
+}
+
 .leader-name{
 	padding-top: 5%;
+	font-family: 'DIN-med-alt';
+	font-size:24px;
 }
 
 .leadership-headline{
 	padding-top: 5%;
+	font-size: 44px;
+	font-family: 'DIN-bold';
+}
+
+.leader-title{
+	font-size: 15px;
+	font-family: 'DIN';
+	margin-top: -5%;
 }
 
 .leader-image{
@@ -50,6 +65,12 @@
 	margin-bottom: 10px;
 	background-color: red;
 	clear:both;
+}
+
+.leader-blurb{
+	font-size: 14px;
+	font-family: 'DIN';
+	padding-right: 30%;
 }
 
 

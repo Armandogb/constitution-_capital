@@ -46,6 +46,7 @@
 	font-size: 36px;
 	font-weight: bold;
 	position:relative;
+	font-family: 'Century';
 }
 
 .mobile-headline p{
@@ -104,10 +105,12 @@
 	font-size: 36px;
 	padding-bottom: 5%;
 	padding-top: 8%;
+	font-family: 'DIN-bold';
 }
 
-.services-paragraphs p{
-	font-size: 14px;
+.services-paragraphs{
+	font-size: 20px;
+	font-family: 'DIN';
 }
 
 .services-headline p,.services-paragraphs p{
