@@ -11,6 +11,56 @@
 	<div class="trading-menu">
 	</div>
 </section>
+<section class="trading-extra-options" style="display:none;">
+	<div class="spread-type-select">
+		<select>
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="mercedes">Mercedes</option>
+		  <option value="audi">Audi</option>
+		</select>
+	</div>
+	<div class="option-future-select">
+		<select>
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="mercedes">Mercedes</option>
+		  <option value="audi">Audi</option>
+		</select>
+	</div>
+	<div class="code-select">
+		<select>
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="mercedes">Mercedes</option>
+		  <option value="audi">Audi</option>
+		</select>
+	</div>
+	<div class="strike-select">
+	</div>
+	<div class="call-put-select">
+		<select>
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="mercedes">Mercedes</option>
+		  <option value="audi">Audi</option>
+		</select>
+	</div>
+	<div class="buy-sell-select">
+		<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+	</div>
+	<div class="strike-price-select">
+	</div>
+	<div class="quantity-select">
+	</div>
+	<div class="delta-select">
+	</div>
+</section>
 <section class="trading-column-names">
 	<div class="house-col">
 		<p>HOUSE</p>
