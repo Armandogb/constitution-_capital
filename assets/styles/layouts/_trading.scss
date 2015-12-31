@@ -13,7 +13,7 @@
 }
 
 .trading-column-names{
-	background:white;
+	background:$egg-white;
 	width:100%;
 }
 
@@ -22,7 +22,7 @@
 	float:left;
 	color:$dark-grey;
 	position:relative;
-	padding:0 0 0 7.5%;
+	padding:0 0 0 4.5%;
 	font-size: 13px;
 	font-family: 'DIN-bold';
 	color:$dark-blue;
@@ -32,8 +32,8 @@
 .house-col{
 	display:inline-block;
 	position: relative;
-	left:-1%;
-	width:10.8%;
+	left:1%;
+	width:13.7%;
 }
 
 .stock-object{
@@ -58,15 +58,14 @@
 .middle-columns{
 	display:inline-block;
 	position:relative;
-	width:40%;
-	left:-3%;
+	width:50%;
 }
 
 .end-columns{
 	display:inline-block;
 	position:relative;
 	width:20%;
-	left:-5%;
+	left:-10%;
 }
 
 .timestamp-col{

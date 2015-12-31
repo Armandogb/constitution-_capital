@@ -13,37 +13,37 @@
 </section>
 <section class="trading-column-names">
 	<div class="house-col">
-		<p>Word</p>
+		<p>HOUSE</p>
 	</div>
 	<div class="middle-columns left">
 			<div class="buy-sell-col">
-				<p>Word</p>
+				<p>BUY/SELL</p>
 			</div>
 			<div class="quantity-col">
-				<p>Word</p>
+				<p>QUANTITY</p>
 			</div>
 			<div class="codes-col">
-				<p>Word</p>
+				<p>CODES</p>
 			</div>
 			<div class="strike-col">
-				<p>Word</p>
+				<p>STRIKE</p>
 			</div>
 			<div class="cp-col">
-				<p>Word</p>
+				<p>C/P</p>
 			</div>
 			<div class="premuim-col">
-				<p>Word</p>
+				<p>PREMIUM</p>
 			</div>
 			<div class="spread-col">
-				<p>Word</p>
+				<p>SPREAD</p>
 			</div>
 		</div>
 		<div class="end-columns">
 			<div class="comments-col">
-				<p>Word</p>
+				<p>COMMENTS</p>
 			</div>
 			<div class="timestamp-col">
-				<p>Word</p>
+				<p>TIME STAMP</p>
 			</div>
 		</div>
 </section>
