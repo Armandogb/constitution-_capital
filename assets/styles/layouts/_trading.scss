@@ -6,6 +6,10 @@
 .trading-title{
 	position:relative;
 	left:5%;
+	font-family: 'DIN-bold';
+	font-size: 22px;
+	letter-spacing: 0.61px;
+	line-height: 21px;
 }
 
 .trading-column-names{
@@ -19,7 +23,9 @@
 	color:$dark-grey;
 	position:relative;
 	padding:0 0 0 7.5%;
-	font-size: 11px;
+	font-size: 13px;
+	font-family: 'DIN-bold';
+	color:$dark-blue;
 	text-align: left;
 }
 
@@ -36,6 +42,9 @@
 	float:left;
 	clear:both;
 	border-bottom:1px solid rgba(62, 90, 90, 0.56);
+	font-family: 'DIN';
+	font-size: 14.5;
+	letter-spacing: 0.75px;
 }
 
 .stock-object div{
@@ -44,7 +53,6 @@
 	padding-left:1%;
 	float:left;
 	color:$light-blue;
-	font-size:12px;
 }
 
 .middle-columns{
