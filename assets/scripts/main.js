@@ -71,6 +71,10 @@
             left: "+=40%"
         },"slow");
 
+        $(".phone-1").animate({
+            left: "+=60%"
+        },"slow");
+
       });
 
       $(".laptop-image").one("click",function(){
