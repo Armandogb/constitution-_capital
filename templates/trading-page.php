@@ -8,57 +8,73 @@
 	<div class="trading-title left">
 		<p>Trading: days trading</p>
 	</div>
-	<div class="trading-menu">
-	</div>
 </section>
-<section class="trading-extra-options" style="display:none;">
+<section class="trading-extra-options">
 	<div class="spread-type-select">
+		<p>SPREAD TYPE</p>
 		<select>
-		  <option value="volvo">Volvo</option>
-		  <option value="saab">Saab</option>
-		  <option value="mercedes">Mercedes</option>
-		  <option value="audi">Audi</option>
+		  <option value="" disabled selected>select</option>
+		  <option value="one">one</option>
+		  <option value="two">two</option>
+		  <option value="three">three</option>
+		  <option value="four">four</option>
 		</select>
 	</div>
 	<div class="option-future-select">
+		<p>OPTION/FUTURE</p>
 		<select>
-		  <option value="volvo">Volvo</option>
-		  <option value="saab">Saab</option>
-		  <option value="mercedes">Mercedes</option>
-		  <option value="audi">Audi</option>
+		  <option value="" disabled selected>select</option>
+		  <option value="one">one</option>
+		  <option value="two">two</option>
+		  <option value="three">three</option>
+		  <option value="four">four</option>
 		</select>
 	</div>
 	<div class="code-select">
+		<p>CODE</p>
 		<select>
-		  <option value="volvo">Volvo</option>
-		  <option value="saab">Saab</option>
-		  <option value="mercedes">Mercedes</option>
-		  <option value="audi">Audi</option>
+		  <option value="" disabled selected>select</option>
+		  <option value="one">one</option>
+		  <option value="two">two</option>
+		  <option value="three">three</option>
+		  <option value="four">four</option>
 		</select>
 	</div>
 	<div class="strike-select">
+		<p>STRIKE</p>
+		<input name="" type="text" value="enter value">
 	</div>
 	<div class="call-put-select">
+		<p>CALLPUT</p>
 		<select>
-		  <option value="volvo">Volvo</option>
-		  <option value="saab">Saab</option>
-		  <option value="mercedes">Mercedes</option>
-		  <option value="audi">Audi</option>
+		  <option value="" disabled selected>select</option>
+		  <option value="one">one</option>
+		  <option value="two">two</option>
+		  <option value="three">three</option>
+		  <option value="four">four</option>
 		</select>
 	</div>
 	<div class="buy-sell-select">
+		<p>BUY/SELL</p>
 		<select>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
+		  <option value="" disabled selected>select</option>
+		  <option value="one">one</option>
+		  <option value="two">two</option>
+		  <option value="three">three</option>
+		  <option value="four">four</option>
+		</select>
 	</div>
 	<div class="strike-price-select">
+		<p>STRIKE PRICE</p>
+		<input name="" type="text" value="enter value">
 	</div>
 	<div class="quantity-select">
+		<p>QUANTITY</p>
+		<input name="" type="text" value="enter value">
 	</div>
 	<div class="delta-select">
+		<p>DELTA</p>
+		<input name="" type="text" value="enter value">
 	</div>
 </section>
 <section class="trading-column-names">
@@ -81,7 +97,7 @@
 			<div class="cp-col">
 				<p>C/P</p>
 			</div>
-			<div class="premuim-col">
+			<div class="premium-col">
 				<p>PREMIUM</p>
 			</div>
 			<div class="spread-col">
@@ -121,7 +137,7 @@
 			<p>c/p</p>
 		</div>
 		<div class="premium-space">
-			<p>premium</p>
+			<p>prem</p>
 		</div>
 		<div class="spread-space">
 			<p>spread</p>

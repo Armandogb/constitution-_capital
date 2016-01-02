@@ -37,11 +37,11 @@
         $(".home-services-but").hover(function(){
           $(this).css("background-color","red");
         },function(){
-          $(this).css("background-color","#990000");
+          $(this).css("background-color","#A12D3A");
         });
 
         $(".nav-menu li:nth-child(6) a").hover(function(){
-          $(this).css("background-color","#4DBD33");
+          $(this).css("background-color","#76EE00");
         },function(){
           $(this).css("background-color","#28AE7B");
         });
