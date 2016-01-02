@@ -6,7 +6,24 @@
 
 <section class="trading-header">
 	<div class="trading-title left">
-		<p>Trading: days trading</p>
+		<p><?php echo ucfirst($post->post_name) ?>: days trading</p>
+	</div>
+	<div class="trading-menu right">
+		<div class="tm-product">
+			<p>Product |</p>
+		</div>
+		<div class="tm-date">
+			<p>Date |</p>
+		</div>
+		<div class="tm-adv-search">
+			<p>Advanced Search</p>
+		</div>
+		<div class="tm-clear">
+			<p>CLEAR FILTER</p>
+		</div>
+		<div class="tm-print">
+			<p>PRINT REPORT</p>
+		</div>
 	</div>
 </section>
 <section class="trading-extra-options">
