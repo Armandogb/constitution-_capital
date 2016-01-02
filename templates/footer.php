@@ -24,7 +24,8 @@
 				</form>
 			</div>
 			<div class="social-media">
-				<?php get_template_part('templates/social_media_svg'); ?>
+				<div class="social-icons">
+				</div>
 			</div>
 		</div>
 	</section>

@@ -21,8 +21,13 @@
         // JavaScript to be fired on all pages
       },
       finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+      
+        $(".tm-adv-search").on("click",function(){
+          $(".trading-extra-options").css("display","inline-block");
+
+        });
       }
+
     },
     // Home page
     'home': {
