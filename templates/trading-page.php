@@ -9,19 +9,19 @@
 		<p><?php echo ucfirst($post->post_name) ?>: days trading</p>
 	</div>
 	<div class="trading-menu right">
-		<div class="tm-product">
-			<p>Product |</p>
+		<div class="tm-product tm1">
+			<p>Product__|</p>
 		</div>
-		<div class="tm-date">
-			<p>Date |</p>
+		<div class="tm-date tm1">
+			<p>Date__|</p>
 		</div>
-		<div class="tm-adv-search">
+		<div class="tm-adv-search tm1">
 			<p>Advanced Search</p>
 		</div>
-		<div class="tm-clear">
+		<div class="tm-clear tm2">
 			<p>CLEAR FILTER</p>
 		</div>
-		<div class="tm-print">
+		<div class="tm-print tm2">
 			<p>PRINT REPORT</p>
 		</div>
 	</div>

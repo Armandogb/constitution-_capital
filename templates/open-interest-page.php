@@ -9,19 +9,19 @@
 		<p>Open Interest: eurodollar</p>
 	</div>
 	<div class="trading-menu right">
-		<div class="tm-product">
+		<div class="tm-product tm1">
 			<p>Product |</p>
 		</div>
-		<div class="tm-date">
+		<div class="tm-date tm1">
 			<p>Date |</p>
 		</div>
-		<div class="tm-adv-search">
+		<div class="tm-adv-search tm1">
 			<p>Advanced Search</p>
 		</div>
-		<div class="tm-clear">
+		<div class="tm-clear tm2">
 			<p>CLEAR FILTER</p>
 		</div>
-		<div class="tm-print">
+		<div class="tm-print tm2">
 			<p>PRINT REPORT</p>
 		</div>
 	</div>
