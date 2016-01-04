@@ -3,24 +3,28 @@
  * Template Name: Contact Us
  */
 ?>
+<?php $query = get_posts(['post_type'=>'contact_us_page']);
+foreach($query as $input): ?>
 
-<section class="contact-us-location">
-	<div class="contact-us-info">
-		<div class="contact-us-headline">
-			<p>WWEWEWE WEWEWEWE WEWEWEWEW WEWEWEWE</p>
+	<section class="contact-us-location">
+		<div class="contact-us-info">
+			<div class="contact-us-headline">
+				<p><?php echo $input->main_title ?></p>
+			</div>
+			<div class="contact-us-address">
+				<p><?php echo $input->address ?></p>
+				<p><?php echo $input->city_state_zip ?></p>
+			</div>
+			<div class="contact-us-phone">
+				<p><?php echo $input->phone_number ?></p>
+			</div>
+			<div class="contact-us-email">
+				<p><?php echo $input->email ?></p>
+			</div>
 		</div>
-		<div class="contact-us-address">
-			<p>address line 1</p>
-			<p>address line 2</p>
-		</div>
-		<div class="contact-us-phone">
-			<p>WWEWEWE WEWEWEWE WEWEWEWEW WEWEWEWE</p>
-		</div>
-		<div class="contact-us-email">
-			<p>WWEWEWE WEWEWEWE WEWEWEWEW WEWEWEWE</p>
-		</div>
-	</div>
-</section>
+	</section>
+
+<?php endforeach; ?>
 <section class="contact-us-form">
 	<div class="form-text-contactus">
 		<p>Contact Us</p>

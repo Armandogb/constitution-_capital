@@ -6,7 +6,13 @@
 
 <section class="home-bannerz">
 	<div class="home-banner-text">
-		<p> example example example example example example example example example example example example.</p>
+		<?php			
+			$query = get_posts(['post_type'=>'home_page']);
+				foreach($query as $input): ?>
+
+			<p><?php echo $input->banner_message ?></p>
+		
+		<?php endforeach; ?>
 	</div>
 	<div class="home-services-but">
 		<a href="/services"><p>SERVICES</p></a>

@@ -48,7 +48,58 @@
 	}
 	add_action( 'init', 'register_service_page', 0 );
 
+		function service_page_add_meta_box() {
+		add_meta_box( 
+			'content-metabox', 
+			'Service Content', 
+			'service_page_content_metabox_callback', 
+			'service_page'
+		);
+			
+	}
+	add_action( 'add_meta_boxes', 'service_page_add_meta_box' );
+
+	function service_page_content_metabox_callback($post){
+		wp_nonce_field( 'myplugin_save_meta_box_data', 'myplugin_meta_box_nonce' );
+
+		?>
+			<p><label for="banner_message">Enter the banner message</label></p>
+			<p><textarea rows="6" cols="80" type="text" name="banner_message"><?php echo get_post_meta($post->ID, 'banner_message', true); ?></textarea></p>
+			</br>
+			<p><label for="middle_title">Enter middle title</label></p>
+			<p><textarea rows="6" cols="80" type="text" name="middle_title"><?php echo get_post_meta($post->ID, 'middle_title', true); ?></textarea></p>
+			<p><label for="middle_paragraph">Enter middle paragraph</label></p>
+			<p><textarea rows="6" cols="80" type="text" name="middle_paragraph"><?php echo get_post_meta($post->ID, 'middle_paragraph', true); ?></textarea></p>
+			</br>
+			<p><label for="bottom_title">Enter bottom title</label></p>
+			<p><textarea rows="6" cols="80" type="text" name="bottom_title"><?php echo get_post_meta($post->ID, 'bottom_title', true); ?></textarea></p>
+		<?php
+	}
 	
+	function service_page_content_save($post_id){
+
+		if( ! isset( $_POST['myplugin_meta_box_nonce'] ) ) {
+			return;
+		}
+
+		if( isset( $_POST['banner_message'] ) ) {
+			update_post_meta( $post_id, 'banner_message', $_POST['banner_message'] );
+		}
+
+		if( isset( $_POST['middle_title'] ) ) {
+			update_post_meta( $post_id, 'middle_title', $_POST['middle_title'] );
+		}
+
+		if( isset( $_POST['middle_paragraph'] ) ) {
+			update_post_meta( $post_id, 'middle_paragraph', $_POST['middle_paragraph'] );
+		}
+
+		if( isset( $_POST['bottom_title'] ) ) {
+			update_post_meta( $post_id, 'bottom_title', $_POST['bottom_title'] );
+		}
+	}
+
+	add_action( 'save_post', 'service_page_content_save' );
 
 
 

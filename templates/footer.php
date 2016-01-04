@@ -1,3 +1,5 @@
+<?php $query = get_posts(['post_type'=>'contact_us_page']);
+foreach($query as $input): ?>
 
   	<section class="main-footer">
   		<div class="left-footer">
@@ -6,15 +8,17 @@
 				</div>
 			</div>
 			<div class="address-bar-foot">
-				<p class="white-text">Address Address Address Address Address Address Address</p>
+				<p class="white-text"><?php echo $input->address ?> <?php echo $input->city_state_zip ?></p>
 			</div>
 			<div class="phone-bar-foot">
-				<p class="white-text">Phone Phone Phone</p>
+				<p class="white-text"><?php echo $input->phone_number ?></p>
 			</div>
 			<div class="rights-reserved-foot">
-				<p class="light-blue-text">Rights Rights Rights Rights Rights Rights</p>
+				<p class="light-blue-text">all rights reserved</p>
 			</div>
 		</div>
+
+<?php endforeach; ?>
 		<div class="footer-right">
 			<div class="email-title">
 				<p class="light-blue-text">Sign up for our mailing list</p>

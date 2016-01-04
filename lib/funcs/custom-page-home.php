@@ -48,6 +48,37 @@
 	}
 	add_action( 'init', 'register_home_page', 0 );
 
+	function home_page_add_meta_box() {
+		add_meta_box( 
+			'content-metabox', 
+			'Home Content', 
+			'home_page_info_metabox_callback', 
+			'home_page'
+		);
+			
+	}
+	add_action( 'add_meta_boxes', 'home_page_add_meta_box' );
 
+	function home_page_info_metabox_callback($post){
+		wp_nonce_field( 'myplugin_save_meta_box_data', 'myplugin_meta_box_nonce' );
+
+		?>
+			<p><label for="banner_message">Enter the banner message</label></p>
+			<p><textarea rows="6" cols="80" type="text" name="banner_message"><?php echo get_post_meta($post->ID, 'banner_message', true); ?></textarea></p>
+		<?php
+	}
+	
+	function home_page_info_save($post_id){
+
+		if( ! isset( $_POST['myplugin_meta_box_nonce'] ) ) {
+			return;
+		}
+
+		if( isset( $_POST['banner_message'] ) ) {
+			update_post_meta( $post_id, 'banner_message', $_POST['banner_message'] );
+		}
+	}
+
+	add_action( 'save_post', 'home_page_info_save' );
 
 ?>
