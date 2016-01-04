@@ -16,7 +16,9 @@
 			Words Words Words Words Words Words Words Words Words Words Words </p>
 		</div>
 	</div>
-	<div class="services-laptop">
+	<div class="services-laptop AB">
+		<div class="about-us-image">
+		</div>
 	</div>
 </section>
 <section class="about-leadership">

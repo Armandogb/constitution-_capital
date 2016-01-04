@@ -10,10 +10,13 @@
 	</div>
 	<div class="trading-menu right">
 		<div class="tm-product tm1">
-			<p>Product__|</p>
+			<p>Product</p>
+		</div>
+		<div class="tm-product tm1">
+			<p>|</p>
 		</div>
 		<div class="tm-date tm1">
-			<p>Date__|</p>
+			<p>Date</p>
 		</div>
 		<div class="tm-adv-search tm1">
 			<p>Advanced Search</p>
@@ -132,9 +135,6 @@
 </section>
 <section class="trading-table">
 	<div class="stock-object">
-		<div class="table-blank-space">
-			<p></p>
-		</div>
 		<div class="house-space">
 			<p>house</p>
 		</div>
@@ -164,9 +164,6 @@
 		</div>
 		<div class="timestamp-space">
 			<p>Time</p>
-		</div>
-		<div class="table-blank-right">
-			<p></p>
 		</div>
 	</div>
 </section>

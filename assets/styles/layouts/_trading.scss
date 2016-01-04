@@ -21,11 +21,12 @@
 }
 
 .trading-menu div{
+	
 	position:relative;
 	display:inline-block;
 	float:left;
-	width:16%;
-	left:8%;
+	left:12%;
+	padding-left:5%;
 	color:$light-blue;
 	text-align: center;
 }
@@ -114,6 +115,7 @@
 	font-family: 'DIN';
 	font-size: 14.5;
 	letter-spacing: 0.75px;
+	padding: 0 0 0 5%;
 }
 
 .stock-object div{
@@ -178,12 +180,6 @@
 	border-right:1px solid rgba(62, 90, 90, 0.56);
 }
 
-.table-blank-space{
-	width:4%;
-}
-.table-blank-right{
-	width:3%;
-}
 .house-space{
 	width:18%;
 	border-right:1px solid rgba(62, 90, 90, 0.56);
