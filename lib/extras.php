@@ -32,5 +32,12 @@ function excerpt_more() {
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 
+require_once dirname(__FILE__) . '/funcs/custom-page-home.php';
+require_once dirname(__FILE__) . '/funcs/custom-page-service.php';
+require_once dirname(__FILE__) . '/funcs/custom-page-about.php';
+require_once dirname(__FILE__) . '/funcs/custom-page-eurodollar.php';
+require_once dirname(__FILE__) . '/funcs/custom-page-treasuries.php';
+require_once dirname(__FILE__) . '/funcs/custom-page-open-interest.php';
+require_once dirname(__FILE__) . '/funcs/custom-page-contact-us.php';
 
 
