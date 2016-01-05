@@ -11,9 +11,10 @@ if( have_posts() ){
 		the_post();
 ?>
 
-		<section class="home-bannerz">
+		<section class="home-bannerz" style="background:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), 
+		url(<?php echo get_field('banner_image'); ?>); background-size: 100% 100%; background-repeat: no-repeat;">
 			<div class="home-banner-text">
-				<p><?php echo get_field('banner_title', $post->ID); ?></p>
+				<p><?php echo get_field('banner_title'); ?></p>
 			</div>
 			<div class="home-services-but">
 				<a href="/services"><p>SERVICES</p></a>
