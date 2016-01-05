@@ -84,12 +84,8 @@
 
 
 .trading-column-names{
-	background:$egg-white;
 	width:100%;
-}
-
-.trading-column-names div{
-	display:inline-block;
+	background:$egg-white;
 	float:left;
 	color:$dark-grey;
 	position:relative;
@@ -97,92 +93,31 @@
 	font-family: 'DIN-bold';
 	color:$dark-blue;
 	text-align: left;
-}
-
-.house-col{
-	display:inline-block;
-	position: relative;
-	left:5.5%;
-	width:13.7%;
-}
-
-.stock-object{
-	width:100%;
-	background-color: $light-grey;
-	float:left;
-	clear:both;
-	border-bottom:1px solid rgba(62, 90, 90, 0.56);
-	font-family: 'DIN';
-	font-size: 14.5;
-	letter-spacing: 0.75px;
-	padding: 0 0 0 5%;
-}
-
-.stock-object div{
-	display:inline-block;
-	text-align: left;
-	padding-left:1%;
-	float:left;
-	color:$light-blue;
-}
-
-.middle-columns{
-	display:inline-block;
-	position:relative;
-	width:66%;
-	left:9%;
-}
-
-.end-columns{
-	display:inline-block;
-	position:relative;
-	width:15%;
-	right:11%;
-}
-
-.timestamp-col{
-	position: absolute;
-	float:right;
-	left:57%;
-}
-
-.middle-columns div{
-	float:left;
-	padding:0 0 0 3.5%;
+	padding:.7% 5% .7% 5%;
 }
 
 .trading-table{
+	background:$egg-white;
 	width:100%;
 }
 
-.premium-col,.spread-col{
-	left:3%;
-	position: relative;
+.trading-table table{
+	width:100%;
 }
 
-.table-blank-space.right,.buy-sell-space,.quantity-space,.codes-space,.strike-space,.cp-space,
-.premium-space{
-	width:4%;
-	border-right:1px solid rgba(62, 90, 90, 0.56);
-}
-.timestamp-space,.comments-space{
-	width:11.35%;
-	border-right:1px solid rgba(62, 90, 90, 0.56);
+.trading-column-names th{
+	width: 4%;
 }
 
-.spread-space{
-	width:12.35%;
-	border-right:1px solid rgba(62, 90, 90, 0.56);
+.mid{
+	position:relative;
+	left:10%;
+	width: 4%;
 }
 
-.table-blank-space{
-	width:4%;
-	border-right:1px solid rgba(62, 90, 90, 0.56);
-}
-
-.house-space{
-	width:18%;
-	border-right:1px solid rgba(62, 90, 90, 0.56);
-	border-left:1px solid rgba(62, 90, 90, 0.56);
+.end{
+	position:relative;
+	left:20%;
+	padding-left: 4%;
 }
 

@@ -97,73 +97,19 @@
 		<input name="" type="text" value="enter value">
 	</div>
 </section>
-<section class="trading-column-names">
-	<div class="house-col">
-		<p>HOUSE</p>
-	</div>
-	<div class="middle-columns left">
-			<div class="buy-sell-col">
-				<p>BUY/SELL</p>
-			</div>
-			<div class="quantity-col">
-				<p>QUANTITY</p>
-			</div>
-			<div class="codes-col">
-				<p>CODES</p>
-			</div>
-			<div class="strike-col">
-				<p>STRIKE</p>
-			</div>
-			<div class="cp-col">
-				<p>C/P</p>
-			</div>
-			<div class="premium-col">
-				<p>PREMIUM</p>
-			</div>
-			<div class="spread-col">
-				<p>SPREAD</p>
-			</div>
-		</div>
-		<div class="end-columns">
-			<div class="comments-col">
-				<p>COMMENTS</p>
-			</div>
-			<div class="timestamp-col">
-				<p>TIME STAMP</p>
-			</div>
-		</div>
-</section>
 <section class="trading-table">
-	<div class="stock-object">
-		<div class="house-space">
-			<p>house</p>
-		</div>
-		<div class="buy-sell-space">
-			<p>B/S</p>
-		</div>
-		<div class="quantity-space">
-			<p>Quant</p>
-		</div>
-		<div class="codes-space">
-			<p>codes</p>
-		</div>
-		<div class="strike-space">
-			<p>strike</p>
-		</div>
-		<div class="cp-space">
-			<p>c/p</p>
-		</div>
-		<div class="premium-space">
-			<p>prem</p>
-		</div>
-		<div class="spread-space">
-			<p>spread</p>
-		</div>
-		<div class="comments-space">
-			<p>comments</p>
-		</div>
-		<div class="timestamp-space">
-			<p>Time</p>
-		</div>
-	</div>
+	<table>
+		 <tr class="trading-column-names">
+		   <th class="house">HOUSE</th>
+		   <th class="buy-sell mid">BUY/SELL</th> 
+		   <th class="quant mid">QUANTITY</th>
+		   <th class="codes mid">CODES</th>
+		   <th class="strike mid">STRIKE</th> 
+		   <th class="c-p mid">C/P</th>
+		   <th class="premium mid">PREMIUM</th>
+		   <th class="spread mid">SPREAD</th> 
+		   <th class="comments end">COMMENTS</th>
+		   <th class="timestamp end">TIME STAMP</th>
+		 </tr>
+	</table>	
 </section>
