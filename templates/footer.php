@@ -1,5 +1,3 @@
-<?php $query = get_posts(['post_type'=>'contact_us_page']);
-foreach($query as $input): ?>
 
   	<section class="main-footer">
   		<div class="left-footer">
@@ -8,17 +6,15 @@ foreach($query as $input): ?>
 				</div>
 			</div>
 			<div class="address-bar-foot">
-				<p class="white-text"><?php echo $input->address ?> <?php echo $input->city_state_zip ?></p>
+				<p class="white-text"><?php echo get_field('address',30); ?> <?php echo get_field('city_state_zip',30); ?></p>
 			</div>
 			<div class="phone-bar-foot">
-				<p class="white-text"><?php echo $input->phone_number ?></p>
+				<p class="white-text"><?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1.$2.$3", get_field('phone_number',30));?></p>
 			</div>
 			<div class="rights-reserved-foot">
 				<p class="light-blue-text">all rights reserved</p>
 			</div>
 		</div>
-
-<?php endforeach; ?>
 		<div class="footer-right">
 			<div class="email-title">
 				<p class="light-blue-text">Sign up for our mailing list</p>

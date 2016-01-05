@@ -3,47 +3,53 @@
  * Template Name: Contact Us
  */
 ?>
-<?php $query = get_posts(['post_type'=>'contact_us_page']);
-foreach($query as $input): ?>
 
-	<section class="contact-us-location">
-		<div class="contact-us-info">
-			<div class="contact-us-headline">
-				<p><?php echo $input->main_title ?></p>
-			</div>
-			<div class="contact-us-address">
-				<p><?php echo $input->address ?></p>
-				<p><?php echo $input->city_state_zip ?></p>
-			</div>
-			<div class="contact-us-phone">
-				<p><?php echo $input->phone_number ?></p>
-			</div>
-			<div class="contact-us-email">
-				<p><?php echo $input->email ?></p>
-			</div>
-		</div>
-	</section>
+<? if( have_posts() ){
+	while(have_posts() ){
+		the_post();
+?>
 
-<?php endforeach; ?>
-<section class="contact-us-form">
-	<div class="form-text-contactus">
-		<p>Contact Us</p>
-	</div>
-	<div class="contact-form">
-		<form>
-			<div class="contact-name left" >
-				<input type="text" name="first_last_name" value="First & Last Name">
+		<section class="contact-us-location">
+			<div class="contact-us-info">
+				<div class="contact-us-headline">
+					<p><?php echo get_field('title_left'); ?></p>
+				</div>
+				<div class="contact-us-address">
+					<p><?php echo get_field('address'); ?></p>
+					<p><?php echo get_field('city_state_zip'); ?></p>
+				</div>
+				<div class="contact-us-phone">
+					<p><?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", get_field('phone_number',30));?></p>
+				</div>
+				<div class="contact-us-email">
+					<p><?php echo get_field('email'); ?></p>
+				</div>
 			</div>
-			<div class="contact-email right" >
-				<input type="text" name="email" value="Email Address">
+		</section>
+		<section class="contact-us-form">
+			<div class="form-text-contactus">
+				<p>Contact Us</p>
 			</div>
-			<div class="contact-comment left" >
-				<textarea rows="25" type="text" name="comment">Comment</textarea>
+			<div class="contact-form">
+				<form>
+					<div class="contact-name left" >
+						<input type="text" name="first_last_name" value="First & Last Name">
+					</div>
+					<div class="contact-email right" >
+						<input type="text" name="email" value="Email Address">
+					</div>
+					<div class="contact-comment left" >
+						<textarea rows="25" type="text" name="comment">Comment</textarea>
+					</div>
+					<div class="contact-submit left">
+						<input type="submit" value="Submit">
+					</div>
+				</form>
 			</div>
-			<div class="contact-submit left">
-				<input type="submit" value="Submit">
-			</div>
-		</form>
-	</div>
+		</section>
 
-</section>
+<?php
+		}
+	}
+
+?>

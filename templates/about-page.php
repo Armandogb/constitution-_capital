@@ -5,6 +5,7 @@
 ?>
 
 <?php get_template_part('templates/section-big-banner', 'big_banner'); ?>
+
 <section class="services-middle">
 	<div class="services-middle-text">
 		<div class="services-headline">
