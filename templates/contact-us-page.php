@@ -34,10 +34,10 @@
 					<p><?php echo get_field('city_state_zip'); ?></p>
 				</div>
 				<div class="contact-us-phone">
-					<p><?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", get_field('phone_number',30));?></p>
+					<p><i class="fa fa-phone"></i> <?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", get_field('phone_number',30));?></p>
 				</div>
 				<div class="contact-us-email">
-					<p><?php echo get_field('email'); ?></p>
+					<p><i class="fa fa-envelope-o"></i> <?php echo get_field('email'); ?></p>
 				</div>
 			</div>
 		</section>
