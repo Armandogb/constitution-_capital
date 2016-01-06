@@ -1,12 +1,14 @@
-.header{
+.headerz{
 	position:fixed;
 	top:0;
     left:0;
 	background-color: white;
 	clear:both;
-	width:100%;
+    float:left;
+	width:90%;
     height:69px;
 	z-index: 99999;
+    padding:0 5% 0 5%;
 }
 .header-spacer{
     position:relative;
@@ -26,7 +28,6 @@
     height:60px;
     width:166px;
     clear: both;
-    left: 5%;
     top: .5%;
 }
 
@@ -41,7 +42,8 @@
 .nav-menu li:nth-last-child(-n+1){
 	float: right;
     position: relative;
-    padding-right: 8%;
+    right:0;
+    padding-right: 0;
     padding-top: 0.2%;
 
 }
@@ -59,8 +61,9 @@
 }
 
 .nav-menu{
-	width:85%;
+	width:84%;
 	float:right;
+    padding:0;
 }
 
 .nav-menu li{
@@ -75,4 +78,8 @@
 	font-size: 12px;
     font-family: 'DIN-alt-med';
     letter-spacing: 1px;
+}
+
+.menu-home-nav-container{
+overflow: hidden;
 }

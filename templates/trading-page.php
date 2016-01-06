@@ -9,23 +9,23 @@
 		<p><?php echo ucfirst($post->post_name) ?>: days trading</p>
 	</div>
 	<div class="trading-menu right">
-		<div class="tm-product tm1">
-			<p>Product</p>
-		</div>
-		<div class="tm-product tm1">
-			<p>|</p>
-		</div>
-		<div class="tm-date tm1">
-			<p>Date</p>
-		</div>
-		<div class="tm-adv-search tm1">
-			<p>Advanced Search</p>
+		<div class="tm-print tm2">
+			<p>PRINT REPORT</p>
 		</div>
 		<div class="tm-clear tm2">
 			<p>CLEAR FILTER</p>
 		</div>
-		<div class="tm-print tm2">
-			<p>PRINT REPORT</p>
+		<div class="tm-adv-search tm1">
+			<p>Advanced Search</p>
+		</div>
+		<div class="tm-date tm1">
+			<p>Date</p>
+		</div>
+		<div class="tm-product tm1">
+			<p>|</p>
+		</div>
+		<div class="tm-product tm1">
+			<p>Product</p>
 		</div>
 	</div>
 </section>
@@ -109,7 +109,7 @@
 		   <th class="premium mid">PREMIUM</th>
 		   <th class="spread mid">SPREAD</th> 
 		   <th class="comments end">COMMENTS</th>
-		   <th class="timestamp end">TIME STAMP</th>
+		   <th class="timestamp end">TIMESTAMP</th>
 		 </tr>
 	</table>	
 </section>
