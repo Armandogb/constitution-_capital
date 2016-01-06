@@ -1,16 +1,15 @@
-html{
+html,body{
+	color:$egg-white;
 	width:100%;
+	height:100%;
+	overflow-x: hidden;
+	margin:0;
+	padding:0;
+
 }
 
 ::-webkit-scrollbar { 
     display: none; 
-}
-
-body{
-	color:$egg-white;
-	width:100%;
-	height:100%;
-	font-size: 100%;
 }
 
 select {
