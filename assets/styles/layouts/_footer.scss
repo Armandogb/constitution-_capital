@@ -21,7 +21,7 @@
 
 .left-footer{
 	display:inline-block;
-	width:40%;
+	width:50%;
 	float:left;
     letter-spacing: 2.33px;
 }
@@ -34,7 +34,7 @@
 
 .footer-right{
 	display:inline-block;
-	width:30%;
+    width:35%;
 	float:right;
 }
 
@@ -49,25 +49,30 @@
 .email-field{
     display: inline-block;
     float: left;
-    width: 225px;
+    width: 75%;
     padding-left:10px;
     background-color: transparent;
     padding-top: 5px;
     padding-bottom: 5px;
     border:1px solid $light-blue;
     font-family: 'DIN';
+    position: relative;
 }
 
 .email-submit{
     display: inline-block;
-    float: left;
-    margin-left: 45px;
-    width: 100px;
+    float: right;
+    width: 20%;
     background-color: transparent;
     padding-top: 5px;
     padding-bottom: 5.5px;
     border:1px solid $light-blue;
     font-family: 'DIN';
+
+}
+
+.email-title{
+    width:100%;
 }
 
 .phone-bar-foot{
