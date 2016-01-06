@@ -9,7 +9,22 @@
 		the_post();
 ?>
 
+  		<script type="text/javascript">
+
+			var map;
+			function initMap() {
+			  map = new google.maps.Map(document.getElementById('map'), {
+			    center: {lat: 41.877732, lng: -87.632264},
+			    zoom: 16
+			  });
+			}
+
+		</script>
+		<script async defer
+			 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq7rM30kWGUzCTWPgUxtrAY-It8eqjDIg&callback=initMap">
+   	 	</script>
 		<section class="contact-us-location">
+			<div id="map"></div>
 			<div class="contact-us-info">
 				<div class="contact-us-headline">
 					<p><?php echo get_field('title_left'); ?></p>
