@@ -111,5 +111,17 @@
 		   <th class="comments end">COMMENTS</th>
 		   <th class="timestamp end">TIMESTAMP</th>
 		 </tr>
+		 <tr class="trading-column-rows">
+		   <td class="house-row">HOUSE</td>
+		   <td class="buy-sell mid-row">BUY/SELL</td> 
+		   <td class="quant mid-row">QUANTITY</td>
+		   <td class="codes mid-row">CODES</td>
+		   <td class="strike mid-row">STRIKE</td> 
+		   <td class="c-p mid-row">C/P</td>
+		   <td class="premium mid-row">PREMIUM</td>
+		   <td class="spread mid-row">SPREAD</td> 
+		   <td class="comments end-row">COMMENTS</td>
+		   <td class="timestamp end-row">TIMESTAMP</td>
+		 </tr>
 	</table>	
 </section>
