@@ -39,6 +39,14 @@ a:hover{
 	float:right;
 }
 
+.light{
+	background: $light-grey;
+}
+
+.dark{
+	background: $dark-grey;
+}
+
 .current_page_item a{
 	color:#A12D3A;
 }

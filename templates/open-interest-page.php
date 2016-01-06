@@ -9,23 +9,23 @@
 		<p>Open Interest: eurodollar</p>
 	</div>
 	<div class="trading-menu right">
-		<div class="tm-product tm1">
-			<p>Product</p>
-		</div>
-		<div class="tm-product tm1">
-			<p>|</p>
-		</div>
-		<div class="tm-date tm1">
-			<p>Date</p>
-		</div>
-		<div class="tm-adv-search tm1">
-			<p>Advanced Search</p>
+		<div class="tm-print tm2">
+			<p>PRINT REPORT</p>
 		</div>
 		<div class="tm-clear tm2">
 			<p>CLEAR FILTER</p>
 		</div>
-		<div class="tm-print tm2">
-			<p>PRINT REPORT</p>
+		<div class="tm-adv-search tm1">
+			<p>Advanced Search</p>
+		</div>
+		<div class="tm-date tm1">
+			<p>Date</p>
+		</div>
+		<div class="tm-product tm1">
+			<p>|</p>
+		</div>
+		<div class="tm-product tm1">
+			<p>Product</p>
 		</div>
 	</div>
 </section>
@@ -97,41 +97,16 @@
 		<input name="" type="text" value="enter value">
 	</div>
 </section>
-<section class="trading-column-names">
-	<div class="house-col OI">
+<section class="interest-column-names">
+	<div class="call OI">
 		<p>CALL</p>
 	</div>
-	<div class="middle-columns left">
-			<div class="buy-sell-col">
-				<p></p>
-			</div>
-			<div class="quantity-col">
-				<p></p>
-			</div>
-			<div class="codes-col">
-				<p></p>
-			</div>
-			<div class="strike-col OI">
-				<p>STRIKE</p>
-			</div>
-			<div class="cp-co ">
-				<p></p>
-			</div>
-			<div class="premium-col">
-				<p></p>
-			</div>
-			<div class="spread-col">
-				<p></p>
-			</div>
-		</div>
-		<div class="end-columns OI">
-			<div class="comments-col">
-				<p></p>
-			</div>
-			<div class="timestamp-col">
-				<p>PUT</p>
-			</div>
-		</div>
+	<div class="strike OI">
+		<p>STRIKE</p>
+	</div>
+	<div class="put OI">
+		<p>PUT</p>
+	</div>
 </section>
 <section class="interest-table">
 	<div class="grapher-object">
