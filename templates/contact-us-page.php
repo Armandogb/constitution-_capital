@@ -15,9 +15,35 @@
 			function initMap() {
 			  map = new google.maps.Map(document.getElementById('map'), {
 			    center: {lat: 41.877732, lng: -87.632264},
-			    zoom: 16
+			    zoom: 15
 			  });
+
+			  var styles = [
+				  {
+				    stylers: [
+				      { hue: "#00ffe6" },
+				      { saturation: -20 }
+				    ]
+				  },{
+				    featureType: "road",
+				    elementType: "geometry",
+				    stylers: [
+				      { lightness: 100 },
+				      { visibility: "simplified" }
+				    ]
+				  },{
+				    featureType: "road",
+				    elementType: "labels",
+				    stylers: [
+				      { visibility: "off" }
+				    ]
+				  }
+			   ];
+
+				map.setOptions({styles: styles});
 			}
+
+
 
 		</script>
 		<script async defer

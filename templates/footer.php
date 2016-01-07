@@ -24,10 +24,15 @@
 				</form>
 			</div>
 			<div class="social-media">
-				<div class="social-icons">
+				<div class="icon-oval-sm fb">
+					<i class="fa fa-facebook"></i>				
 				</div>
+				<div class="icon-oval-sm lnki">
+					<i class="fa fa-linkedin"></i>						
+				</div>
+				<div class="icon-oval-sm twit">
+					<i class="fa fa-twitter"></i>						
+				</div>			
 			</div>
 		</div>
 	</section>
-
-

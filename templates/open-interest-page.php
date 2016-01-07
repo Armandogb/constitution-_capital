@@ -22,20 +22,20 @@ if( have_posts() ){
 				<div class="tm-clear tm2">
 					<p>CLEAR FILTER</p>
 				</div>
-				<div class="tm-adv-search tm1">
+				<div class="tm-adv-search tm1 menu-spacer">
 					<p><i class="fa fa-plus"></i> Advanced Search</p>
 				</div>
-				<div class="tm-product tm1">
+				<div class="tm-product tm1 menu-spacer">
 					<p>|</p>
 				</div>
-				<div class="tm-date tm1">
-					<p>Date</p>
+				<div class="tm-date tm1 menu-spacer">
+					<p>Date <i class="fa fa-caret-down"></i></p>
 				</div>
-				<div class="tm-product tm1">
+				<div class="tm-product tm1 menu-spacer">
 					<p>|</p>
 				</div>
-				<div class="tm-product tm1">
-					<p>Product</p>
+				<div class="tm-product tm1 menu-spacer">
+					<p>Product <i class="fa fa-caret-down"></i></p>
 				</div>
 			</div>
 		</section>
