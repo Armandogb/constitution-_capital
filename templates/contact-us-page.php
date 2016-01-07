@@ -15,13 +15,17 @@
 			function initMap() {
 			  map = new google.maps.Map(document.getElementById('map'), {
 			    center: {lat: 41.877732, lng: -87.632264},
-			    zoom: 15
+			    zoom: 15,
+			    backgroundColor:'#23252C'
 			  });
 
 			  var styles = [
 				  {
 				    stylers: [
-				      { color: "#23252C" }
+				      { hue: "#282B32" },
+				      { saturation: 71 },
+				      { lightness: -30 },
+				      { gamma: 1.67 }
 				    ]
 				  },{
 				    featureType: "road",
