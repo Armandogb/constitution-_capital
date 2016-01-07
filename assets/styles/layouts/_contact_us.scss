@@ -20,13 +20,8 @@
     background: rgba(45, 45, 56, 0.83);
     position: relative;
     z-index: 2;
-     -webkit-filter: blur(5px);
-	  -moz-filter: blur(5px);
-	  -o-filter: blur(5px);
-	  -ms-filter: blur(5px);
-	  filter: blur(5px);
-
 }
+
 
 .contact-us-headline{
 	font-size: 44px;
@@ -59,8 +54,8 @@
 }
 
 .contact-us-form {
-	width:100%;
-	padding: 0px 0% 8% 0%;
+	width:84%;
+	padding: 5% 8% 5% 8%;
 	background-color: $light-grey;
 }
 
@@ -81,14 +76,13 @@
 
 
 .contact-form{
-	padding: 2% 10% 0 15%;
+	width:100%;
+	overflow: hidden;
 }
 
 
 .form-text-contactus{
-	width:80%;
-	margin-left:10%;
-	margin-right: 10%;
+	width:100%;
 	font-size: 22px;
 	font-family: 'DIN-bold';
 	text-align: center;
@@ -99,16 +93,16 @@
 .contact-name{
 	width:50%;
 }
-.contact-name input{
-	width:88%;
+.contact-name input,.contact-email input{
+	width:90%;
 }
 
 .contact-email{
 	width: 50%;
 }
 .contact-email input{
-	width: 88%;
-	margin-left: 4%;
+	display: inline-block;
+	float: right;
 }
 
 .contact-comment{
@@ -133,7 +127,7 @@
 
 .contact-submit input{
 	position:relative;
-	width:100px;
+	width:33%;
 	text-align: center;
 	border-radius: 5px;
 	padding:2% 0 2% 0;

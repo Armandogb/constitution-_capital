@@ -21,8 +21,7 @@
 			  var styles = [
 				  {
 				    stylers: [
-				      { hue: "#00ffe6" },
-				      { saturation: -20 }
+				      { color: "#23252C" }
 				    ]
 				  },{
 				    featureType: "road",

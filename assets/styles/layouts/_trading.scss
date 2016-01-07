@@ -91,11 +91,13 @@
 .trading-column-names{
 	width:90%;
 	background:$egg-white;
-	float:left;
 	position:relative;
 	font-size: 13px;
 	font-family: 'DIN-bold';
 	color:$dark-blue;
+}
+
+thead{
 	padding:.7% 5% .7% 5%;
 }
 
@@ -107,67 +109,61 @@
 .trading-table table{
 	width:100%;
 	table-layout: fixed;
-	border-collapse:collapse;
 }
 
 
 .trading-column-names th{
-	width: 4%;
+	text-align: left;
+	padding: 1% 0 1% 0;
+}
+
+.trading-column-rows td{
+ font-size: 13px;
+ font-family: 'DIN';
+  overflow: hidden;
+  border-right:1px solid rgba(62, 90, 90, 0.56);
+  text-align: left;
+  color:$light-blue;
+  padding: 1%;
+  word-wrap:break-word !important;
+}
+
+.trading-column-rows{
+	border-bottom:1px solid rgba(62, 90, 90, 0.56);
+
 }
 
 .house{
-	text-align: left;
+	/*text-align: left;*/
 }
 
 .premium.mid,.spread.mid{
-	left:3%;
+/*	left:3%;*/
 }
 
 
 .mid{
-	position:relative;
+/*	position:relative;
 	left:5%;
-	text-align: left;
+	text-align: left;*/
+	width:6%;
 
+}
+
+.bigger-column{
+	width:16%;
 }
 
 .end{
-	position:relative;
+/*	position:relative;
 	padding-left: 3%;
-	text-align: center;
+	text-align: left;*/
+	width:5%;
 }
 
-.trading-column-rows{
-	width:90%;
-	float:left;
-	color:$light-blue;
-	position:relative;
-	font-size: 13px;
-	font-family: 'DIN';
-	padding:0 5% 0 5%;
-	border-bottom:1px solid rgba(62, 90, 90, 0.56);
-}
-
-.trading-column-rows td{
-	border-right:1px solid rgba(62, 90, 90, 0.56);
-	padding:1% 1% 1% 1%;
-}
-
-.mid-row{
-	position:relative;
-	width:1.2%;
-	text-align: left;
-}	
-
-.end-row{
-	position:relative;
-	padding-left: 5%;
-	width:1%;
-	text-align: left;
-}
 
 .house-row{
-	text-align: left;
-	width:1.70%;
+/*	text-align: left;
+	width:1.70%;*/
 	border-left:1px solid rgba(62, 90, 90, 0.56);
 }

@@ -109,45 +109,51 @@ if( have_posts() ){
 		</section>
 		<section class="trading-table">
 			<table>
-				 <tr class="trading-column-names">
-				   <th class="house">HOUSE</th>
-				   <th class="buy-sell mid">BUY/SELL</th> 
-				   <th class="quant mid">QUANTITY</th>
-				   <th class="codes mid">CODES</th>
-				   <th class="strike mid">STRIKE</th> 
-				   <th class="c-p mid">C/P</th>
-				   <th class="premium mid">PREMIUM</th>
-				   <th class="spread mid">SPREAD</th> 
-				   <th class="comments end">COMMENTS</th>
-				   <th class="timestamp end">TIMESTAMP</th>
-				 </tr>
+				<thead>
+					 <tr class="trading-column-names">
+					 	<th class="end"></th>
+					   <th class="house bigger-column">HOUSE</th>
+					   <th class="buy-sell mid">BUY/SELL</th> 
+					   <th class="quant mid">QUANTITY</th>
+					   <th class="codes mid">CODES</th>
+					   <th class="strike mid">STRIKE</th> 
+					   <th class="c-p mid">C/P</th>
+					   <th class="premium mid">PREMIUM</th>
+					   <th class="spread mid">SPREAD</th> 
+					   <th class="comments bigger-column">COMMENTS</th>
+					   <th class="timestamp bigger-column">TIMESTAMP</th>
+					   <th class="end"></th>
+					 </tr>
+				 </thead>
+				 <tbody>
+					 <?php 
 
-				 <?php 
+						$stock = get_field('row');
+						$i = 0;
 
-					$stock = get_field('row');
-					$i = 0;
+						foreach ($stock as $row):
 
-					foreach ($stock as $row):
+							$i++;
+							$color = $i % 2 ? 'light' : 'dark'; 
+					?>
 
-						$i++;
-						$color = $i % 2 ? 'light' : 'dark'; 
-				?>
+					 <tr class="trading-column-rows <?php echo $color ?>">
+					 	<td></td>
+					   <td class="house-row"><?php echo $row['house'] ?></td>
+					   <td class="buy-sell mid-row"><?php echo $row['buy_sell'] ?></td> 
+					   <td class="quant mid-row"><?php echo $row['quantity'] ?></td>
+					   <td class="codes mid-row"><?php echo $row['codes'] ?></td>
+					   <td class="strike mid-row"><?php echo $row['strike'] ?></td> 
+					   <td class="c-p mid-row"><?php echo $row['cp'] ?></td>
+					   <td class="premium mid-row"><?php echo $row['premium'] ?></td>
+					   <td class="spread mid-row"><?php echo $row['spread'] ?></td> 
+					   <td class="comments end-row"><?php echo $row['comments'] ?></td>
+					   <td class="timestamp end-row"><?php echo $row['timestamp'] ?></td>
+					   <td></td>
+					 </tr>
 
-				 <tr class="trading-column-rows <?php echo $color ?>">
-				   <td class="house-row"><?php echo $row['house'] ?></td>
-				   <td class="buy-sell mid-row"><?php echo $row['buy_sell'] ?></td> 
-				   <td class="quant mid-row"><?php echo $row['quantity'] ?></td>
-				   <td class="codes mid-row"><?php echo $row['codes'] ?></td>
-				   <td class="strike mid-row"><?php echo $row['strike'] ?></td> 
-				   <td class="c-p mid-row"><?php echo $row['cp'] ?></td>
-				   <td class="premium mid-row"><?php echo $row['premium'] ?></td>
-				   <td class="spread mid-row"><?php echo $row['spread'] ?></td> 
-				   <td class="comments end-row"><?php echo $row['comments'] ?></td>
-				   <td class="timestamp end-row"><?php echo $row['timestamp'] ?></td>
-				 </tr>
-
-				<?php endforeach; ?>
-
+					<?php endforeach; ?>
+				</tbody>
 			</table>	
 		</section>
 
