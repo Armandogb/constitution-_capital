@@ -23,6 +23,24 @@ if( have_posts() ){
 				</div>
 			</div>
 			<div class="services-laptop AB">
+				<ul class="stripes">
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+					<li class="light"></li>
+					<li class="dark"></li>
+				</ul>
 				<div class="about-us-image">
 				</div>
 			</div>
