@@ -17,7 +17,7 @@
 	float:left;
 	width:40%;
 	padding:8% 0 8% 5%;
-    background: rgba(45, 45, 56, 0.94);
+    background: rgba(45, 45, 56, 0.75);
     position: relative;
     z-index: 2;
 }
@@ -95,6 +95,7 @@
 }
 .contact-name input,.contact-email input{
 	width:90%;
+	border-radius: 2px;
 }
 
 .contact-email{
@@ -115,6 +116,7 @@
 	font-size: 14px;
 	height:100px;
 	clear:both;
+	border-radius: 2px;
 }
 
 .contact-submit{
@@ -135,6 +137,7 @@
 	border:none;
 	color:$egg-white;
 	letter-spacing: 2.79px;
+	border-radius: 2px;
 
 }
 
