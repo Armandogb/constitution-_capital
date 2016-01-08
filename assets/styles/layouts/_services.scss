@@ -55,11 +55,11 @@
 }
 
 .services-middle{
-	padding-top:8%;
-	padding-bottom:8%;
 	display:inline-block;
-	width:100%;
+	width:90%;
+	padding: 10% 5% 10% 5%;
 	background-color: $dark-grey;
+	overflow: hidden;
 
 }
 
@@ -97,9 +97,9 @@
 	width:100%;
 }
 
-.services-headline p{
+.services-headline {
 	font-size: 36px;
-	padding-top: 8%;
+	padding-top: 10%;
 	font-family: 'DIN-bold';
 	letter-spacing: -0.6px;
 }
@@ -110,9 +110,7 @@
 	letter-spacing: -0.44px;
 }
 
-.services-headline p,.services-paragraphs p{
-	padding-right: 10%;
-	padding-left: 15%;
+.services-headline,.services-paragraphs{
 	color:#E2E7EC;
 }
 

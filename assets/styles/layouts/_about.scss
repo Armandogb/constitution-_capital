@@ -1,32 +1,32 @@
 
 .about-leadership{
 	background-color: $light-grey;
-	padding:10% 0 10% 0 ;
+	padding:10% 5% 10% 5% ;
 }
 
 .leadership-left{
 	display: inline-block;
 	width:45%;
-	padding-left:5%;
 	float:left;
 }
 
 .leadership-right{
 	display: inline-block;
-	width:40%;
-	padding-right:10%;
+	width:45%;
 	float:right;
 }
 
 .leader-profile{
 	position: relative;
+	width:100%;
+	overflow: hidden;
 }
 
 .leader-info{
     display: inline-block;
     float: left;
-    width: 74%;
-    padding-left: 4%;
+    width: 44%;
+    padding-left: 5%;
 }
 
 .leadership-headline,.leadership-paragraph{
@@ -40,10 +40,11 @@
 }
 
 .leader-name{
-	padding-top: 5%;
 	font-family: 'DIN-med-alt';
 	font-size:24px;
 	letter-spacing: 1.5px;
+	padding-top: 50%;
+	color:white !important;
 }
 
 .leadership-headline{
@@ -56,16 +57,17 @@
 .leader-title{
 	font-size: 15px;
 	font-family: 'DIN';
-	margin-top: -5%;
+	margin-top: -11%;
 	letter-spacing: 6px;
+	color:white !important;
 }
 
 .leader-image{
 	position:relative;
 	display:inline-block;
 	float:left;
-	height:100px;
-	width:100px;
+	height:200px;
+	width:175px;
 	margin-bottom: 10px;
 	clear:both;
 }
@@ -79,7 +81,16 @@
 	font-size: 14px;
 	font-family: 'DIN';
 	padding-right: 30%;
+	margin-top: -10%;
 	letter-spacing: 2px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.leader-info p{
+	color: $light-blue;
+
 }
 
 .about-us-image{

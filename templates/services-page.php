@@ -16,10 +16,10 @@ if( have_posts() ){
 			<section class="services-middle">
 				<div class="services-middle-text">
 					<div class="services-headline">
-						<p><?php echo get_field('paragraph_headline'); ?></p>
+						<?php echo get_field('paragraph_headline'); ?>
 					</div>
 					<div class="services-paragraphs">
-						<p><?php echo get_field('paragraph_content'); ?></p>
+						<?php echo get_field('paragraph_content'); ?>
 					</div>
 				</div>
 				<div class="services-laptop">

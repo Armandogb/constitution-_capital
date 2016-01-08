@@ -54,7 +54,7 @@ if( have_posts() ){
 							<div class="leader-info">
 								<p class="leader-name"><?php echo $person['name'] ?></p>
 								<p class="leader-title"><?php echo $person['title'] ?></p>
-								<p class="leader-blurb"><?php echo $person['blurb'] ?></p>
+								<p class="leader-blurb light-blue"><?php echo $person['blurb'] ?></p>
 							</div>
 						</div>
 
