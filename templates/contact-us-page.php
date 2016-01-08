@@ -4,7 +4,7 @@
  */
 ?>
 
-<? if( have_posts() ){
+<?php if( have_posts() ){
 	while(have_posts() ){
 		the_post();
 ?>
@@ -63,7 +63,7 @@
 					<p><?php echo get_field('city_state_zip'); ?></p>
 				</div>
 				<div class="contact-us-phone">
-					<p><i class="fa fa-phone"></i> <?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", get_field('phone_number',30));?></p>
+					<p><i class="fa fa-phone"></i> <?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", get_field('phone_number',30)); ?></p>
 				</div>
 				<div class="contact-us-email">
 					<p><i class="fa fa-envelope-o"></i> <?php echo get_field('email'); ?></p>
@@ -91,7 +91,7 @@
 				</form>
 			</div>
 		</section>
-		
+
 
 <?php
 		}
