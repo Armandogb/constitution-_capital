@@ -65,15 +65,18 @@
 
 .services-middle-text{
 	display:inline-block;
-	width:50%;
+	width:30%;
 	float:left;
 	background-color: $dark-grey;
+	font-family: 'Din';
+	letter-spacing: -.44px;
+	line-height: 31px;
 }
 
 .services-laptop{
 	display:inline-block;
 	position: relative;
-	width:50%;
+	width:70%;
 	float:right;
 	right:0;
 	background-color: $dark-grey;
@@ -102,6 +105,7 @@
 	padding-top: 10%;
 	font-family: 'DIN-bold';
 	letter-spacing: -0.6px;
+	line-height: 50px;
 }
 
 .services-paragraphs{
@@ -177,7 +181,7 @@
 }
 
 .spread-bar{
-	padding-top:100%;
+	padding-top:70%;
 }
 
 .services-paragraphs p{
