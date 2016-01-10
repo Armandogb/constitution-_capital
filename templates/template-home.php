@@ -10,7 +10,7 @@ if( have_posts() ){
 	while(have_posts() ){
 		the_post();
 ?>
-		<section class="home-bannerz" style="background:linear-gradient(rgba(45, 45, 56, 0.55),rgba(45, 45, 56, 0.55)), 
+		<section class="home-bannerz" style="background:linear-gradient(rgba(33, 34, 42, 0.75),rgba(33, 34, 42, 0.75)), 
 		url(<?php echo get_field('banner_image'); ?>); background-size: 100% 100%; background-repeat: no-repeat;">
 			<div class="home-banner-text">
 				<p><?php echo get_field('banner_title'); ?></p>

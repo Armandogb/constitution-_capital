@@ -1,0 +1,83 @@
+@media (max-width : 667px) {
+    
+	.main-footer{
+	    width: 90%;
+	    padding:10% 5% 0 5%;
+	}
+
+
+	.left-footer{
+		width:50%;
+		margin-left:20%;
+	}
+
+
+	.footer-right{
+		float:left;
+	    width:100%;
+	}
+
+	.logo-bar-foot{
+		width: 100%;
+	    height:78px;
+	    position:relative;
+	}
+
+	.foot-logo{
+	    width:90%;
+	    height:100%;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	}
+
+	.address-bar-foot{
+	    padding-top: 7px;
+	    font-size: 16px;
+	   	text-align: center;
+	}
+
+	.phone-bar-foot{
+	    width:100%;
+	    top:0;
+	    padding:0;
+	    margin-top: -10%;
+	   	text-align: center;
+
+	}
+
+	.social-media{
+	    position:absolute;
+	    right:3%;
+	    padding-top: 4%;
+	    width:100%;
+	}
+
+	.icon-oval-sm{
+	    margin-right: 0%;
+	    vertical-align: top;
+
+	}
+
+	.lnki{
+		float:right;
+	}
+
+	.twit{
+		margin-left: 25%;
+	}
+
+	.email-title{
+		text-align: center;
+	}
+
+	.social-media{
+	    position:relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-top: 5%;
+	    width:70%;
+	}
+
+
+
+}

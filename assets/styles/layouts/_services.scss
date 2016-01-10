@@ -57,7 +57,7 @@
 .services-middle{
 	display:inline-block;
 	width:90%;
-	padding: 10% 5% 10% 5%;
+	padding: 7.5% 5% 7.5% 5%;
 	background-color: $dark-grey;
 	overflow: hidden;
 
@@ -67,10 +67,11 @@
 	display:inline-block;
 	width:30%;
 	float:left;
-	background-color: $dark-grey;
 	font-family: 'Din';
 	letter-spacing: -.44px;
 	line-height: 31px;
+	position: relative;
+	z-index: 1;
 }
 
 .services-laptop{

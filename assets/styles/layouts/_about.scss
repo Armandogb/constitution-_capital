@@ -100,8 +100,8 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    bottom:3%;
-    left: 10%;
+    top:28%;
+    left: 8%;
     z-index: 0;
 }
 
@@ -111,13 +111,14 @@
 
 .stripes{
 	width:100%;
+	padding-top: 8%;
 }
 
 .stripes li{
-	width: 114%;
-    height: 1.88em;
+	width: 120%;
+    height: 2.15em;
+    right:16%;
     position: relative;
-    right: 11%;
     z-index: 0;
 }
 
