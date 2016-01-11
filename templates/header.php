@@ -12,9 +12,12 @@
 		      </a>
 	      </div>
 	      <div class="mobile-nav">
+	      	<div class="hamburger-nav-exit">
+	      		<i class="fa fa-times"></i>
+	      </div>
 	       <?php
-		      if (has_nav_menu('primary_navigation')) :
-		        wp_nav_menu(['theme_location' => 'primary_navigation','menu_class' => 'mobile-menu']);
+		      if (has_nav_menu('mobile_navigation')) :
+		        wp_nav_menu(['theme_location' => 'mobile_navigation','menu_class' => 'mobile-menu']);
 		      endif;
 		      ?>
 	      </div>

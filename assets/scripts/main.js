@@ -26,8 +26,15 @@
           $(".trading-extra-options").css("display","inline-block");
 
         });
-      }
 
+      $(".hamburger-nav").on("click",function(){
+        $(".mobile-nav").css("display","inline-block");
+      });
+
+      $(".hamburger-nav-exit").on("click",function(){
+        $(".mobile-nav").css("display","none");
+      });
+      }
     },
     // Home page
     'home': {
