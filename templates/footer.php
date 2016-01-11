@@ -12,7 +12,7 @@
 				<p class="white-text"><?php echo preg_replace("/^(\d{3})(\d{3})(\d{4})$/", "$1.$2.$3", get_field('phone_number',30));?></p>
 			</div>
 			<div class="rights-reserved-foot">
-				<p class="light-blue-text">all rights reserved</p>
+				<p class="light-blue-text">sitemap | all rights reserved</p>
 			</div>
 		</div>
 		<div class="footer-right">

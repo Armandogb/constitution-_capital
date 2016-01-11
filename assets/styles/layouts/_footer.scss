@@ -53,9 +53,8 @@
     width: 65%;
     padding-left:10px;
     background-color: transparent;
-    padding-top: 6px;
-    padding-bottom: 5px;
     border:1px solid $light-blue;
+    padding:2% 5% 2% 1.5%; 
     position: relative;
     border-radius: 2px;
 }
@@ -64,9 +63,8 @@
     display: inline-block;
     float: right;
     width: 25%;
+    padding:2% 0 2% 0%; 
     background-color: transparent;
-    padding-top: 5px;
-    padding-bottom: 5.5px;
     border:1px solid $light-blue;
     border-radius: 2px;
 
@@ -120,7 +118,6 @@
     width:35px;
     height:35px;
     font-size:20px;
-
 }
 
 .twit i,.lnki i,.fb i{

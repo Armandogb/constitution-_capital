@@ -1,0 +1,23 @@
+/*HEADER MOBILE
+*/
+
+.nav-menu{
+	display:none;
+}
+
+.hamburger-nav{
+	position: relative;
+	display: inline-block;
+	height:100%;
+    width:10%;
+    float:right;
+    text-align: center; 
+}
+
+.hamburger-nav i{
+	position: relative;
+	top:20%;
+	color:#20BF9F;
+    font-size: 44px;
+    width:100%;
+}

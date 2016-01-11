@@ -11,6 +11,9 @@
 		      	</div> 
 		      </a>
 	      </div>
+	      <div class="hamburger-nav">
+	      	<i class="fa fa-bars"></i>
+	      </div>
      </div>
      <section class="header-spacer">
      </section>
