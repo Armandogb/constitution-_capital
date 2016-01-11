@@ -7,8 +7,8 @@
 
 
 	.left-footer{
-		width:50%;
-		margin-left:23.5%;
+		width:60%;
+		margin-left:20%;
 	}
 
 	.left-footer div{
@@ -51,32 +51,33 @@
 
 	.social-media{
 	    position:absolute;
-	    right:3%;
 	    padding-top: 4%;
 	    width:100%;
 	}
 
 	.icon-oval-sm{
-	    border-radius: 50%;
-	    display: inline-block;
-	    background: #525B68;
-	    position: relative;
-	    margin-right: 11.5%;
-	    text-align: center;
-	    vertical-align: top;
-	    width:50px;
-	    height:50px;
-	    font-size:30px;
+	    margin-right:0%;
+	    width:10%;
+	    height:40px;
+	    font-size:22px;
 
 	}
 
 	.twit i,.lnki i,.fb i{
-    	padding-top: 11px;
+    	padding-top: 9px;
+	}
+
+	.fb{
+		margin: 0 20% 0 15% ;
+	}
+
+	.lnki{
+		margin-left:20%;
 	}
 
 	.email-title{
 		text-align: center;
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	.social-media{
@@ -94,6 +95,10 @@
 	    font-size:12px;
 	    width:100%;
 	    text-align: center;
+	}
+
+	.email-form{
+		margin-top: -2%;
 	}
 
 	.email-field{

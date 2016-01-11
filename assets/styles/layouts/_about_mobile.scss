@@ -37,14 +37,40 @@
     left: -4%;
 }
 
+.leader-image-wp{
+	margin-left:0 auto;
+	margin-right: 0 auto;
+	position: relative;
+}
+
 .services-laptop.AB{
 	height:21em;
 }
 
 .leadership-left{
 	display: inline-block;
-	width:100%;
+	width:90%;
+	padding:0 5% 0 5%;
 
+}
+
+.leader-profile{
+	padding:15% 0 0 0;
+}
+
+.leader-name{
+	padding-top: 0%;
+	width:100%;
+}
+
+.leader-info{
+    width: 80%;
+    padding: 0 15% 0 5%;
+}
+
+.leader-title{
+	margin-top: -5%;
+	width:100%;
 }
 
 .leadership-right{
@@ -53,12 +79,16 @@
 	float:left;
 }
 
+.leader-blurb{
+	margin-top: -2%;
+
+}
+
 .leader-image{
 	position:relative;
 	display:inline-block;
 	float:left;
-	height:200px;
-	width:175px;
-	margin-bottom: 10px;
-	clear:both;
+	height:250px;
+	width:50%;
+	margin-left: 20%;
 }
