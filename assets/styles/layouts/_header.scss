@@ -7,7 +7,7 @@
     float:left;
 	width:90%;
     height:69px;
-	z-index: 99999;
+	z-index: 999;
     padding:0 5% 0 5%;
 }
 .header-spacer{
@@ -23,7 +23,7 @@
 .header-logo{
     display: inline-block;
     float: left;
-    z-index: 99999;
+    z-index: 999;
     position: fixed;
     height:60px;
     width:166px;
@@ -70,7 +70,7 @@
     display:none;
 }
 
-.mobile-menu{
+.mobile-nav{
     display:none;
 }
 
