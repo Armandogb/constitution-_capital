@@ -1,0 +1,64 @@
+/*ABOUT MOBILE*/
+
+.big-banner-text{
+	font-size:38px;
+	line-height: 44px;
+}
+
+.big-banner-border-line{
+	width:87%;
+}
+
+.services-middle-text{
+	width:90%;
+	float:right;
+	line-height: 33px;
+	padding:0 5% 0 5%;
+}
+
+.services-laptop{
+	display:inline-block;
+	position: relative;
+	width:100%;
+	float:right;
+	right:0;
+	background-color: $dark-grey;
+}
+
+.stripes li{
+	width: 105%;
+    height: 1.25em;
+    right:16%;
+}
+
+.about-us-image{
+    background-size: 100% 82%;
+    top:24%;
+    left: -4%;
+}
+
+.services-laptop.AB{
+	height:21em;
+}
+
+.leadership-left{
+	display: inline-block;
+	width:100%;
+
+}
+
+.leadership-right{
+	display: inline-block;
+	width:100%;
+	float:left;
+}
+
+.leader-image{
+	position:relative;
+	display:inline-block;
+	float:left;
+	height:200px;
+	width:175px;
+	margin-bottom: 10px;
+	clear:both;
+}

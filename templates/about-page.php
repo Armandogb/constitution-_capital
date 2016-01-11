@@ -12,16 +12,7 @@ if( have_posts() ){
 
 
 		<?php get_template_part('templates/section-big-banner', 'big_banner'); ?>
-
 		<section class="services-middle">
-			<div class="services-middle-text">
-				<div class="services-headline">
-					<p><?php echo get_field('paragraph_headline'); ?></p>
-				</div>
-				<div class="services-paragraphs">
-					<p><?php echo get_field('paragraph_content'); ?></p>
-				</div>
-			</div>
 			<div class="services-laptop AB">
 				<ul class="stripes">
 					<li class="light"></li>
@@ -42,6 +33,14 @@ if( have_posts() ){
 					<li class="dark"></li>
 				</ul>
 				<div class="about-us-image">
+				</div>
+			</div>
+			<div class="services-middle-text">
+				<div class="services-headline">
+					<p><?php echo get_field('paragraph_headline'); ?></p>
+				</div>
+				<div class="services-paragraphs">
+					<p><?php echo get_field('paragraph_content'); ?></p>
 				</div>
 			</div>
 		</section>
