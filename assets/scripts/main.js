@@ -28,11 +28,11 @@
         });
 
         $(".hamburger-nav").on("click",function(){
-          $(".mobile-nav").css("display","inline-block");
+          $(".mobile-wrapper").css("left",0+"%");
         });
 
         $(".hamburger-nav-exit").on("click",function(){
-          $(".mobile-nav").css("display","none");
+          $(".mobile-wrapper").css("left",100+"%");
         });
       }
     },
@@ -41,9 +41,9 @@
       init: function() {
 
         $(".big-icon a").hover(function(){
-          $(this).parent().find($(".big-icon-hover")).css("z-index",0);
+          $(this).parent().find($(".big-icon-hover")).css("margin-top","-"+69+"%");
         },function(){
-          $(".big-icon-hover").css("z-index",-1);
+          $(".big-icon-hover").css("margin-top",26+"%");
         });
 
         $(".home-services-but").hover(function(){

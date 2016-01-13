@@ -28,21 +28,6 @@
     text-align: center;
 }
 
-.mobile-nav{
-	display: none;
-	width:35%;
-	height:100%;
-	background:black;
-	position: fixed;
-	right:0;
-	top:0;
-	z-index: 999999;
-	text-align: center;
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease;
-}
 
 .hamburger-nav{
 	position: relative;
@@ -53,6 +38,10 @@
     float:right;
     text-align: center; 
     clear:both;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 .mobile-menu{
