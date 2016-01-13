@@ -14,6 +14,7 @@ if( have_posts() ){
 		<?php get_template_part('templates/section-big-banner'); ?>
 
 			<section class="services-middle">
+
 				<div class="services-laptop">
 					<div class="laptop-image">
 						<div class="bar-animation one-light">
@@ -36,7 +37,9 @@ if( have_posts() ){
 						</div>
 						<div class="spread-bar">
 						</div>
-					<div>
+					</div>
+				</div>
+
 				<div class="services-middle-text">
 					<div class="services-headline">
 						<?php echo get_field('paragraph_headline'); ?>
@@ -45,6 +48,7 @@ if( have_posts() ){
 						<?php echo get_field('paragraph_content'); ?>
 					</div>
 				</div>
+
 			</section>
 			<section class="services-mobile">
 				<div class="mobile-headline">

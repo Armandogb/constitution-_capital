@@ -20,7 +20,7 @@
 				<p class="light-blue-text">Sign up for our mailing list</p>
 				<form class="email-form">
 					<input class="email-field light-blue-text" type="text" name="email" Value="Email">
-					<input class="email-submit light-blue-text"type="submit" value="Submit">
+					<input class="email-submit light-blue-text"type="submit" value="SUBMIT">
 				</form>
 			</div>
 			<div class="social-media">

@@ -50,10 +50,18 @@
 @import "layouts/trading";
 @import "layouts/openinterest";
 
+@media (max-width : 1024px) {
+    @import "layouts/header_tablet";
+    @import "layouts/footer_tablet";
+}
+
 @media (max-width : 667px) {
   @import "layouts/header_mobile";
   @import "layouts/footer_mobile";
   @import "layouts/home_mobile";
   @import "layouts/about_mobile";
 }
+
+
+
 
