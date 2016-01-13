@@ -123,5 +123,10 @@
     right:16%;
     position: relative;
     z-index: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
+
 

@@ -79,33 +79,17 @@
 
       $(".mobile-phones").one("click",function(){
 
-        $(".phone-2").animate({
-            left: "+=20%"
-        },"slow");
+        $(".phone-1").css("left",15+"%");
 
-        $(".phone-3").animate({
-            left: "+=40%"
-        },"slow");
+        $(".phone-2").css("top",8+"%");
 
-        $(".phone-1").animate({
-            left: "+=60%"
-        },"slow");
+        $(".phone-3").css("right",15+"%");
 
       });
 
       $(".laptop-image").one("click",function(){
 
-        $(".bar-animation").animate({
-          width: "-=28%"
-        },"slow");
-
-        $(".bar-animation").animate({
-          width: "+=18%"
-        },"slow");
-
-        $(".bar-animation").animate({
-          width: "-=18%"
-        },"slow");
+        $(".bar-animation").css("width",0);
       
       });
 
