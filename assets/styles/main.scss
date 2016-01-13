@@ -51,8 +51,9 @@
 @import "layouts/openinterest";
 
 @media (max-width : 1024px) {
-    @import "layouts/header_tablet";
-    @import "layouts/footer_tablet";
+  @import "layouts/header_tablet";
+  @import "layouts/footer_tablet";
+  @import "layouts/home_tablet";
 }
 
 @media (max-width : 667px) {
