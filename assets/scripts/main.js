@@ -30,13 +30,13 @@
         $(".fa-bars").on("click",function(){
           $(this).css("font-size",0+"px");
           $(".mobile-wrapper").css("left",0+"%");
-          $(".fa-times").css("font-size",41+"px")
+          $(".fa-times").css("font-size",41+"px");
         });
 
         $(".fa-times").on("click",function(){
           $(this).css("font-size",0+"px");
           $(".mobile-wrapper").css("left",100+"%");
-          $(".fa-bars").css("font-size",41+"px")
+          $(".fa-bars").css("font-size",41+"px");
         });
       }
     },
