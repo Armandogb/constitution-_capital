@@ -1,0 +1,138 @@
+.logo-bar-foot{
+	display: inline-block;
+    width: 166px;
+    height:60px;
+}
+
+.foot-logo{
+    width:100%;
+    height:100%;
+    background: url(../images/footer_logo.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-footer{
+	position:absolute;
+    width: 90%;
+    padding:2% 5% 0 5%;
+    background-color: $dark-grey;
+}
+
+.left-footer{
+    float:left;
+	display:inline-block;
+	width:50%;
+	float:left;
+    letter-spacing: 2.33px;
+}
+
+.left-footer div{
+	float:left;
+	position:relative;
+	clear:both;
+}
+
+.footer-right{
+    float:right;
+	display:inline-block;
+    width:35%;
+	float:right;
+}
+
+.footer-right div{
+    position: relative;
+    clear: both;
+    margin-bottom: 7%;
+    font-family: 'DIN';
+}
+
+.email-field{
+    display: inline-block;
+    float: left;
+    width: 65%;
+    padding-left:10px;
+    background-color: transparent;
+    border:1px solid $light-blue;
+    padding:2% 5% 2% 1.5%; 
+    position: relative;
+    border-radius: 2px;
+}
+
+.email-submit{
+    display: inline-block;
+    float: right;
+    width: 25%;
+    padding:2% 0 2% 0%; 
+    background-color: transparent;
+    border:1px solid $light-blue;
+    border-radius: 2px;
+
+}
+
+.email-title{
+    width:100%;
+    font-family: 'DIN';
+    letter-spacing: 0.66px;
+    border-radius: 2px;
+}
+
+.phone-bar-foot{
+    position:relative;
+    width:100%;
+    margin-top: -3%;
+    font:14px;
+    font-family: 'DIN';
+}
+
+
+.address-bar-foot{
+    padding-top: 4px;
+    font-family: 'DIN';
+    font-size: 14px;
+}
+
+.rights-reserved-foot{
+    font-family:'DIN-light-alt';
+    font-size:11px;
+}
+
+.social-media{
+    position:absolute;
+    right:3%;
+    padding-top: 4%;
+    width:60%;
+    overflow: hidden;
+
+}
+
+.icon-oval-sm{
+    background:red;
+    border-radius: 50%;
+    display: inline-block;
+    background: #525B68;
+    position: relative;
+    margin-right: 11.5%;
+    text-align: center;
+    vertical-align: top;
+    width:35px;
+    height:35px;
+    font-size:20px;
+}
+
+.twit i,.lnki i,.fb i{
+    padding-top: 7px;
+}
+
+.fb{
+    margin-left:5%;
+}
+
+
+.fa-twitter{    
+    vertical-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size:12px;
+}
+

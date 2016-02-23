@@ -1,19 +1,68 @@
+@import "layouts/normalize";
+
+@font-face {
+  font-family: 'Century';
+  src: url(../fonts/CENTURY.TTF);
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url(../fonts/DIN.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-Alt-Black';
+  src: url(../fonts/DIN-Alternate-Black.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-light-alt';
+  src: url(../fonts/DIN-LightAlternate.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-bold';
+  src: url(../fonts/DIN-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-med-alt';
+  src: url(../fonts/DIN-MediumAlternate.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-alt-med';
+  src: url(../fonts/DIN-Alternate-Medium.ttf);
+}
+
+
 @import "common/variables";
 
-// Automatically injected Bower dependencies via wiredep (never manually edit this block)
-// bower:scss
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
-
-@import "common/global";
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
-@import "components/grid";
-@import "components/wp-classes";
 @import "layouts/header";
-@import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
-@import "layouts/tinymce";
+@import "layouts/home";
+@import "layouts/global_styles";
+@import "layouts/services";
+@import "layouts/about";
+@import "layouts/contact_us";
+@import "layouts/trading";
+@import "layouts/openinterest";
+
+@media (max-width : 1024px) {
+  @import "layouts/header_tablet";
+  @import "layouts/footer_tablet";
+  @import "layouts/home_tablet";
+}
+
+@media (max-width : 667px) {
+  @import "layouts/header_mobile";
+  @import "layouts/footer_mobile";
+  @import "layouts/home_mobile";
+  @import "layouts/about_mobile";
+}
+
+
+
+

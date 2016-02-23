@@ -26,3 +26,14 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+add_filter('show_admin_bar', '__return_false');
+
+function my_admin_menu() {
+     remove_menu_page('edit.php');
+      remove_menu_page('upload.php');
+      remove_menu_page('edit-comments.php');
+}
+
+add_action( 'admin_menu', 'my_admin_menu' );
+ 

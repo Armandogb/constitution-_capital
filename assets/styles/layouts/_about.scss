@@ -1,0 +1,132 @@
+
+.about-leadership{
+	background-color: $light-grey;
+	padding:10% 5% 10% 5% ;
+}
+
+.leadership-left{
+	display: inline-block;
+	width:45%;
+	float:left;
+}
+
+.leadership-right{
+	display: inline-block;
+	width:45%;
+	float:right;
+}
+
+.leader-profile{
+	position: relative;
+	width:100%;
+	overflow: hidden;
+}
+
+.leader-info{
+    display: inline-block;
+    float: left;
+    width: 44%;
+    padding-left: 5%;
+}
+
+.leadership-headline,.leadership-paragraph{
+	padding-right: 4%;
+}
+
+.leadership-paragraph{
+	font-size: 20px;
+	font-family: 'DIN';
+	letter-spacing: -0.44px;
+	line-height: 31px;
+}
+
+.leader-name{
+	font-family: 'DIN-med-alt';
+	font-size:24px;
+	letter-spacing: 1.5px;
+	padding-top: 50%;
+	color:white !important;
+}
+
+.leadership-headline{
+	padding-top: 5%;
+	font-size: 44px;
+	font-family: 'DIN-bold';
+	letter-spacing: -0.6px;
+}
+
+.leader-title{
+	font-size: 15px;
+	font-family: 'DIN';
+	margin-top: -11%;
+	letter-spacing: 6px;
+	color:white !important;
+}
+
+.leader-image{
+	position:relative;
+	display:inline-block;
+	float:left;
+	height:200px;
+	width:175px;
+	margin-bottom: 10px;
+	clear:both;
+}
+
+.leader-image-wp{
+	width:100%;
+	height:100%;
+}
+
+.leader-blurb{
+	font-size: 14px;
+	font-family: 'DIN';
+	padding-right: 30%;
+	margin-top: -10%;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.leader-info p{
+	color: $light-blue;
+	line-height: 20px;
+
+}
+
+.about-us-image{
+	width:100%;
+	height:100%;
+    background: url(../images/levels.png); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:28%;
+    left: 8%;
+    z-index: 0;
+}
+
+.services-laptop.AB{
+	height:30em;
+}
+
+.stripes{
+	width:100%;
+	padding-top: 8%;
+}
+
+.stripes li{
+	width: 120%;
+    height: 2.15em;
+    right:16%;
+    position: relative;
+    z-index: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+

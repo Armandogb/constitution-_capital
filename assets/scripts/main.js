@@ -18,16 +18,51 @@
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages
+
       },
       finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+      
+        $(".tm-adv-search").on("click",function(){
+          $(".trading-extra-options").css("display","inline-block");
+
+        });
+
+        $(".fa-bars").on("click",function(){
+          $(this).css("font-size",0+"px");
+          $(".mobile-wrapper").css("left",0+"%");
+          $(".fa-times").css("font-size",41+"px");
+        });
+
+        $(".fa-times").on("click",function(){
+          $(this).css("font-size",0+"px");
+          $(".mobile-wrapper").css("left",100+"%");
+          $(".fa-bars").css("font-size",41+"px");
+        });
       }
     },
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page
+
+        $(".big-icon a").hover(function(){
+          $(this).parent().find($(".big-icon-hover")).css("margin-top","-"+69+"%");
+        },function(){
+          $(".big-icon-hover").css("margin-top",26+"%");
+        });
+
+        $(".home-services-but").hover(function(){
+          $(this).css("background-color","red");
+        },function(){
+          $(this).css("background-color","#A12D3A");
+        });
+
+        $(".nav-menu li:nth-child(6) a").hover(function(){
+          $(this).css("background-color","#76EE00");
+        },function(){
+          $(this).css("background-color","#28AE7B");
+        });
+
+
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
@@ -37,6 +72,32 @@
     'about_us': {
       init: function() {
         // JavaScript to be fired on the about us page
+      }
+    },
+    'services': {
+      init: function() {
+
+      $(".mobile-phones").one("click",function(){
+
+        $(".phone-1").css("left",15+"%");
+
+        $(".phone-2").css("top",8+"%");
+
+        $(".phone-3").css("right",15+"%");
+
+      });
+
+      $(".laptop-image").one("click",function(){
+
+        $(".bar-animation").css("width",0);
+      
+      });
+
+
+
+      },
+      finalize: function() {
+        // JavaScript to be fired on all pages, after page specific JS is fired
       }
     }
   };

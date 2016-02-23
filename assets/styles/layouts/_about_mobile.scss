@@ -1,0 +1,94 @@
+/*ABOUT MOBILE*/
+
+.big-banner-text{
+	font-size:38px;
+	line-height: 44px;
+}
+
+.big-banner-border-line{
+	width:87%;
+}
+
+.services-middle-text{
+	width:90%;
+	float:right;
+	line-height: 33px;
+	padding:0 5% 0 5%;
+}
+
+.services-laptop{
+	display:inline-block;
+	position: relative;
+	width:100%;
+	float:right;
+	right:0;
+	background-color: $dark-grey;
+}
+
+.stripes li{
+	width: 105%;
+    height: 1.25em;
+    right:16%;
+}
+
+.about-us-image{
+    background-size: 100% 82%;
+    top:24%;
+    left: -4%;
+}
+
+.leader-image-wp{
+	margin-left:0 auto;
+	margin-right: 0 auto;
+	position: relative;
+}
+
+.services-laptop.AB{
+	height:21em;
+}
+
+.leadership-left{
+	display: inline-block;
+	width:90%;
+	padding:0 5% 0 5%;
+
+}
+
+.leader-profile{
+	padding:15% 0 0 0;
+}
+
+.leader-name{
+	padding-top: 0%;
+	width:100%;
+}
+
+.leader-info{
+    width: 80%;
+    padding: 0 15% 0 5%;
+}
+
+.leader-title{
+	margin-top: -5%;
+	width:100%;
+}
+
+.leadership-right{
+	display: inline-block;
+	width:100%;
+	float:left;
+}
+
+.leader-blurb{
+	margin-top: -2%;
+
+}
+
+.leader-image{
+	position:relative;
+	display:inline-block;
+	float:left;
+	height:250px;
+	width:50%;
+	margin-left: 20%;
+}
